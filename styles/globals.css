@@ -1,26 +1,57 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100%;
+  height: 100%;
 }
 
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0 !important;
+}
+
+video {
+  display: block;
+}
+li {
+  list-style: none;
+}
 a {
-  color: inherit;
   text-decoration: none;
+  color: #01432b;
 }
-
-* {
-  box-sizing: border-box;
+button {
+  cursor: pointer !important;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+button {
+  transition: all 0.4s ease;
+  border: none !important;
+}
+.fourth-container .left img,
+video {
+  position: absolute;
+}
+.fifth-container .right img,
+video {
+  position: absolute;
+}
+@media (min-width: 1280px) {
+  html,
   body {
-    color: white;
-    background: black;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: center;
   }
 }
