@@ -24,10 +24,10 @@ export default function Home() {
 
         <div className="sidebar">
           <div id="close">
-            <img className="lazy" data-src="assets/images/close-btn.svg" alt="close-btn" />
+            <img className="lazy" src="assets/images/close-btn.svg" alt="close-btn" />
           </div>
           <div className="header-logo">
-            <img className="lazy" data-src="assets/images/menu-logo.svg" alt="logo" />
+            <img className="lazy" src="assets/images/menu-logo.svg" alt="logo" />
           </div>
           <ul>
             <li>
@@ -48,7 +48,7 @@ export default function Home() {
           </ul>
           <div className="menu-btn">
             <a href="https://www.instagram.com/signaturegreenvibes/" target="_blank" className="white bebas"><span><img
-              className="lazy" data-src="assets/images/menu-instagram.svg" alt="logo" /></span>INSTAGRAM</a>
+              className="lazy" src="assets/images/menu-instagram.svg" alt="logo" /></span>INSTAGRAM</a>
             <div>
               <label className="roboto white">© 2023 Diageo</label>
             </div>
@@ -57,7 +57,7 @@ export default function Home() {
 
         <header id="header-section">
           <div className="logo">
-            <img className="lazy" data-src="assets/images/logo.svg" alt="logo" />
+            <img className="lazy" src="assets/images/logo.svg" alt="logo" />
           </div>
           <ul>
             <li>
@@ -78,13 +78,13 @@ export default function Home() {
           </ul>
 
           <div id="menu">
-            <img className="lazy" data-src="assets/images/ham-menu.svg" alt="ham-menu" />
+            <img className="lazy" src="assets/images/ham-menu.svg" alt="ham-menu" />
           </div>
         </header>
 
         <section id="home-section" className="section common-section">
           <div className="home-container">
-            <img className="bg-img lazy" data-src="assets/images/firstbg.svg" alt="img" />
+            <img className="bg-img lazy" src="assets/images/firstbg.svg" alt="img" />
 
             <div className="content container lazy">
               <div className="text-section">
@@ -98,7 +98,7 @@ export default function Home() {
                   imported from Scottish highlands and spey-side. Crafted with perfection by our Master Blender Louise
                   Martin, it is truly unique, full of character & bound to leave a lasting signature. Taste of Nature in a
                   Glass!</p>
-                <img data-src="assets/images/symbol.svg" alt="img" className="symbol-img lazy wow fadeInUpBig"
+                <img src="assets/images/symbol.svg" alt="img" className="symbol-img lazy wow fadeInUpBig"
                   data-wow-duration="2s" data-wow-delay="0.5s" />
                 <a aria-label="View Recipes" href="#eighth-section"
                   className="bg-deepgreen text-lightgreen bebas common-btn view-recipe-btn">VIEW
@@ -106,19 +106,19 @@ export default function Home() {
               </div>
             </div>
 
-            <img className="bottom-img lazy" data-src="assets/images/bottom.webp" alt="img" />
+            <img className="bottom-img lazy" src="assets/images/bottom.webp" alt="img" />
 
             <div className="popup">
               <div className="popup-container">
-                <img className="popup-close lazy" data-src="assets/images/close.svg" alt="close-icon" />
+                <img className="popup-close lazy" src="assets/images/close.svg" alt="close-icon" />
                 <div className="popup-top">
-                  <img className="lazy" data-src="assets/images/glass.svg" alt="img" />
+                  <img className="lazy" src="assets/images/glass.svg" alt="img" />
                   <h2 className="gothic text-greenish">purchase online</h2>
                 </div>
                 <ul className="popup-middle">
                   <li>
                     <a href="https://www.swiggy.com/" target="_blank">
-                      <img className="img lazy" data-src="assets/images/swiggy.svg" alt="swiggy-icon" />
+                      <img className="img lazy" src="assets/images/swiggy.svg" alt="swiggy-icon" />
                       <div className="roboto text text-uppercase">swiggy</div>
                     </a>
                   </li>
@@ -131,7 +131,7 @@ export default function Home() {
 
             <div className="popup-btn active">
               <div className="popup-btn-container">
-                <img data-src="assets/images/glass-btn.webp" alt="img" className="img-fluid lazy" width="35" height="35" />
+                <img src="assets/images/glass-btn.webp" alt="img" className="img-fluid lazy" width="35" height="35" />
                 <h2 className="gothic text-greenish">purchase online</h2>
               </div>
             </div>
@@ -150,7 +150,7 @@ export default function Home() {
                       Signature attains a level of perfection that is truly remarkable. Her meticulous craftsmanship infuses
                       every sip of these exquisite blends with a sense of revelation, offering a remarkably smooth and
                       delightfully rich experience. </p>
-                    <img className="lazy" data-src="assets/images/sign.webp" alt="sign img" />
+                    <img className="lazy" src="assets/images/sign.webp" alt="sign img" />
                   </div>
                 </div>
                 <div className="col-xl-7">
@@ -158,32 +158,32 @@ export default function Home() {
                     <div className="owl-carousel owl-theme">
                       <div className="item">
                         <div className="img-container-1">
-                          <img data-src="assets/images/carousel-1-top-left.webp" alt="img" className="lazy wow fadeInUpBig"
+                          <img src="assets/images/carousel-1-top-left.webp" alt="img" className="lazy wow fadeInUpBig"
                             data-wow-duration="2s" data-wow-delay="0.1s" />
-                          <img data-src="assets/images/carousel-1-top-right.webp" alt="img" className="lazy wow fadeInUpBig"
+                          <img src="assets/images/carousel-1-top-right.webp" alt="img" className="lazy wow fadeInUpBig"
                             data-wow-duration="2s" data-wow-delay="0.2s" />
-                          <img data-src="assets/images/carousel-1-middle-left.webp" alt="img" className="lazy wow fadeInUpBig"
+                          <img src="assets/images/carousel-1-middle-left.webp" alt="img" className="lazy wow fadeInUpBig"
                             data-wow-duration="2s" data-wow-delay="0.3s" />
                           <video className="lazy middle wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="0.4s" autoPlay
                             playsInline loop muted preload="none" poster="assets/images/carousel-1-middle.webp">
-                            <source data-src="assets/videos/carousel-1-middle.mp4" type="video/mp4" />
-                            <source data-src="assets/videos/carousel-1-middle.webm" type="video/webm" />
+                            <source src="assets/videos/carousel-1-middle.mp4" type="video/mp4" />
+                            <source src="assets/videos/carousel-1-middle.webm" type="video/webm" />
                             <p>Your browser doesn't support HTML video. Here is a
                               <a href="assets/videos/carousel-1-middle.mp4">link to the video</a> instead.
                             </p>
                           </video>
-                          <img data-src="assets/images/carousel-1-middle-right.webp" alt="img" className="lazy wow fadeInUpBig"
+                          <img src="assets/images/carousel-1-middle-right.webp" alt="img" className="lazy wow fadeInUpBig"
                             data-wow-duration="2s" data-wow-delay="0.5s" />
                           <video playsInline autoPlay muted loop className="lazy bottom-left opacity-75 wow fadeInUpBig"
                             data-wow-duration="2s" data-wow-delay="0.6s" preload="none"
                             poster="assets/images/born-of-craft-carousel.webp">
-                            <source data-src="assets/videos/born-of-craft.mp4" type="video/mp4" />
-                            <source data-src="assets/videos/born-of-craft.webm" type="video/webm" />
+                            <source src="assets/videos/born-of-craft.mp4" type="video/mp4" />
+                            <source src="assets/videos/born-of-craft.webm" type="video/webm" />
                             <p>Your browser doesn't support HTML video. Here is a
                               <a href="assets/videos/born-of-craft.mp4">link to the video</a> instead.
                             </p>
                           </video>
-                          <img data-src="assets/images/carousel-1-bottom-right.webp" alt="img" className="lazy wow fadeInUpBig"
+                          <img src="assets/images/carousel-1-bottom-right.webp" alt="img" className="lazy wow fadeInUpBig"
                             data-wow-duration="2s" data-wow-delay="0.6s" />
                         </div>
                       </div>
@@ -222,8 +222,8 @@ export default function Home() {
 
         <section id="third-section" className="section common-section">
           <video className="lazy" playsInline autoPlay muted loop preload="none" poster="assets/images/born-of-craft.webp">
-            <source data-src="assets/videos/born-of-craft.mp4" type="video/mp4" />
-            <source data-src="assets/videos/born-of-craft.webm" type="video/webm" />
+            <source src="assets/videos/born-of-craft.mp4" type="video/mp4" />
+            <source src="assets/videos/born-of-craft.webm" type="video/webm" />
             <p>Your browser doesn't support HTML video. Here is a
               <a href="assets/videos/born-of-craft.mp4">link to the video</a> instead.
             </p>
@@ -234,7 +234,7 @@ export default function Home() {
               <p className="roboto common-p text-white">Signature is a creation of natural ingredients- Nature's finest, barley,
                 fresh water and 10 imported scotches harmonize to become one. They are blended with aged Indian malts and
                 fine grain spirits. Even the bottle is made from recycled glass.</p>
-              <img className="lazy" data-src="assets/images/qr.webp" alt="qr-img" />
+              <img className="lazy" src="assets/images/qr.webp" alt="qr-img" />
               <span className="bebas text-white">scan the qr code for more</span>
             </div>
           </div>
@@ -246,21 +246,21 @@ export default function Home() {
               <div className="row">
                 <div className="col-xl-6">
                   <div className="left" data-wow-duration="2s">
-                    <img data-src="assets/images/bottle.webp" alt="img" className="lazy wow fadeInUp" data-wow-duration="2s"
+                    <img src="assets/images/bottle.webp" alt="img" className="lazy wow fadeInUp" data-wow-duration="2s"
                       data-wow-delay="0.1s" />
                     <video className="lazy wow fadeInUp opacity-75" data-wow-duration="2s" autoPlay muted loop playsInline
                       data-wow-delay="0.2s" preload="none" poster="assets/images/fourth-video.webp">
-                      <source data-src="assets/videos/fourth-video.mp4" type="video/mp4" />
-                      <source data-src="assets/videos/fourth-video.webm" type="video/webm" />
+                      <source src="assets/videos/fourth-video.mp4" type="video/mp4" />
+                      <source src="assets/videos/fourth-video.webm" type="video/webm" />
                       <p>Your browser doesn't support HTML video. Here is a
                         <a href="assets/videos/fourth-video.mp4">link to the video</a> instead.
                       </p>
                     </video>
-                    <img data-src="assets/images/fourth-middle.webp" alt="img" className="lazy wow fadeInUp"
+                    <img src="assets/images/fourth-middle.webp" alt="img" className="lazy wow fadeInUp"
                       data-wow-duration="2s" data-wow-delay="0.3s" />
-                    <img data-src="assets/images/fourth-bottom-left.webp" alt="img" className="lazy wow zoomIn"
+                    <img src="assets/images/fourth-bottom-left.webp" alt="img" className="lazy wow zoomIn"
                       data-wow-duration="2s" data-wow-delay="0.4s" />
-                    <img data-src="assets/images/fourth-bottom-right.webp" alt="img" className="lazy wow zoomIn"
+                    <img src="assets/images/fourth-bottom-right.webp" alt="img" className="lazy wow zoomIn"
                       data-wow-duration="2s" data-wow-delay="0.5s" />
                   </div>
                 </div>
@@ -297,21 +297,21 @@ export default function Home() {
                 </div>
                 <div className="col-xl-6 order-xl-2 order-1">
                   <div className="right">
-                    <img data-src="assets/images/bottle-2.webp" alt="img" className="lazy wow fadeInUp" data-wow-duration="2s"
+                    <img src="assets/images/bottle-2.webp" alt="img" className="lazy wow fadeInUp" data-wow-duration="2s"
                       data-wow-delay="0.1s" />
                     <video className="lazy wow fadeInUp opacity-75" data-wow-duration="2s" autoPlay playsInline loop muted
                       data-wow-delay="0.2s" preload="none" poster="assets/images/fifth-video.webp">
-                      <source data-src="assets/videos/fifth-video.mp4" type="video/mp4" />
-                      <source data-src="assets/videos/fifth-video.webm" type="video/webm" />
+                      <source src="assets/videos/fifth-video.mp4" type="video/mp4" />
+                      <source src="assets/videos/fifth-video.webm" type="video/webm" />
                       <p>Your browser doesn't support HTML video. Here is a
                         <a href="assets/videos/fifth-video.mp4">link to the video</a> instead.
                       </p>
                     </video>
-                    <img data-src="assets/images/fifth-bottom-left.webp" alt="img" className="lazy wow fadeInRight"
+                    <img src="assets/images/fifth-bottom-left.webp" alt="img" className="lazy wow fadeInRight"
                       data-wow-duration="2s" data-wow-delay="0.3s" />
-                    <img data-src="assets/images/fifth-bottom-left-2.webp" alt="img" className="lazy wow fadeInUp"
+                    <img src="assets/images/fifth-bottom-left-2.webp" alt="img" className="lazy wow fadeInUp"
                       data-wow-duration="2s" data-wow-delay="0.4s" />
-                    <img data-src="assets/images/fifth-bottom-right.webp" alt="img" className="lazy wow fadeInUp"
+                    <img src="assets/images/fifth-bottom-right.webp" alt="img" className="lazy wow fadeInUp"
                       data-wow-duration="2s" data-wow-delay="0.5s" />
                   </div>
                 </div>
@@ -323,14 +323,14 @@ export default function Home() {
         <section id="sixth-section" data-bg='assets/images/greenbg.svg' className="lazy section common-section common-bg">
           <img src="assets/images/close-video.svg" className="position-absolute close-video" alt="close-btn" />
           <video className="lazy d-none" controls loop muted playsInline preload="none" poster="assets/images/sixth-video.webp">
-            <source data-src="assets/videos/sixth-video.mp4" type="video/mp4" />
-            <source data-src="assets/videos/sixth-video.webm" type="video/webm" />
+            <source src="assets/videos/sixth-video.mp4" type="video/mp4" />
+            <source src="assets/videos/sixth-video.webm" type="video/webm" />
             <p>Your browser doesn't support HTML video. Here is a
               <a href="assets/videos/sixth-video.mp4">link to the video</a> instead.
             </p>
           </video>
           <div className="container position-relative">
-            <img data-src="assets/images/sixth-top.webp" alt="img" className="lazy position-absolute sixth-top wow fadeInUpBig"
+            <img src="assets/images/sixth-top.webp" alt="img" className="lazy position-absolute sixth-top wow fadeInUpBig"
               data-wow-duration="2s" data-wow-delay="0.1s" />
             <div className="sixth-container wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="0.2s">
               <h2 className="gothic text-lightgreen text-center common-heading-2">grain to glass</h2>
@@ -340,14 +340,14 @@ export default function Home() {
                 So, sip and savour this sublime concoction, knowing that it was crafted with a commitment to both taste and
                 the planet.</p>
             </div>
-            <img data-src="assets/images/play.svg" alt="img" className="lazy position-absolute play-btn wow fadeInUpBig"
+            <img src="assets/images/play.svg" alt="img" className="lazy position-absolute play-btn wow fadeInUpBig"
               data-wow-duration="2s" data-wow-delay="0.3s" />
-            <img data-src="assets/images/sixth-bottom-left.webp" alt="img"
+            <img src="assets/images/sixth-bottom-left.webp" alt="img"
               className="lazy position-absolute sixth-bottom-left wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="0.4s" />
-            <img data-src="assets/images/sixth-bottom-right.webp" alt="img"
+            <img src="assets/images/sixth-bottom-right.webp" alt="img"
               className="lazy position-absolute sixth-bottom-right wow fadeInUpBig" data-wow-duration="2s"
               data-wow-delay="0.5s" />
-            <img data-src="assets/images/sixth-bottom-right-2.webp" alt="img"
+            <img src="assets/images/sixth-bottom-right-2.webp" alt="img"
               className="lazy position-absolute sixth-bottom-right-2 wow fadeInUpBig" data-wow-duration="2s"
               data-wow-delay="0.6s" />
           </div>
@@ -368,9 +368,9 @@ export default function Home() {
         <section id="seventh-section" data-bg='assets/images/greenbg.svg' className="lazy section common-section common-bg">
           <div className="container">
             <div className="seventh-container position-relative">
-              <img data-src="assets/images/seven-top-left.webp" alt="img" className="lazy top-left wow fadeInUpBig"
+              <img src="assets/images/seven-top-left.webp" alt="img" className="lazy top-left wow fadeInUpBig"
                 data-wow-delay="0.1s" data-wow-duration="2s" />
-              <img data-src="assets/images/seven-top-right.webp" alt="img" className="lazy top-right wow fadeInUpBig"
+              <img src="assets/images/seven-top-right.webp" alt="img" className="lazy top-right wow fadeInUpBig"
                 data-wow-delay="0.1s" data-wow-duration="2s" />
               <div className="content wow fadeInUpBig" data-wow-duration="2s">
                 <h2 className="gothic text-lightgreen common-heading-2">nature in a glass</h2>
@@ -378,11 +378,11 @@ export default function Home() {
                   curations crafted by the world’s top mixologists. Made with only the finest-locally sourced ingredients
                   that celebrate natural flavors and aromas of the earth.</p>
               </div>
-              <img data-src="assets/images/Arrow.webp" alt="img" className="lazy middle-arrow wow fadeInUpBig"
+              <img src="assets/images/Arrow.webp" alt="img" className="lazy middle-arrow wow fadeInUpBig"
                 data-wow-duration="2s" data-wow-delay="0.1s" />
-              <img data-src="assets/images/seven-bottom-left.webp" alt="img" className="lazy bottom-left wow fadeInUpBig"
+              <img src="assets/images/seven-bottom-left.webp" alt="img" className="lazy bottom-left wow fadeInUpBig"
                 data-wow-delay="0.1s" data-wow-duration="2s" />
-              <img data-src="assets/images/seven-bottom-right.webp" alt="img" className="lazy bottom-right wow fadeInUpBig"
+              <img src="assets/images/seven-bottom-right.webp" alt="img" className="lazy bottom-right wow fadeInUpBig"
                 data-wow-delay="0.1s" data-wow-duration="2s" />
             </div>
           </div>
@@ -406,13 +406,13 @@ export default function Home() {
                 <div className="row">
                   <div className="col-md-4">
                     <div className="modal-left">
-                      <img className="lazy" data-src="assets/images/eight-img1.svg" alt="img" />
+                      <img className="lazy" src="assets/images/eight-img1.svg" alt="img" />
                     </div>
                   </div>
                   <div className="col-md-8">
                     <div className="modal-right">
                       <button type="button" className="modal-closebtn" data-bs-dismiss="modal">
-                        <img data-src="assets/images/modal-close.svg" className="lazy" alt="close" />
+                        <img src="assets/images/modal-close.svg" className="lazy" alt="close" />
                       </button>
                       <div className="modal-label text-greenish gothic">
                         <label>001</label>
@@ -462,13 +462,13 @@ export default function Home() {
                 <div className="row">
                   <div className="col-md-4">
                     <div className="modal-left">
-                      <img className="lazy" data-src="assets/images/eight-img2.svg" alt="img" />
+                      <img className="lazy" src="assets/images/eight-img2.svg" alt="img" />
                     </div>
                   </div>
                   <div className="col-md-8">
                     <div className="modal-right">
                       <button type="button" className="modal-closebtn" data-bs-dismiss="modal">
-                        <img data-src="assets/images/modal-close.svg" className="lazy" alt="close" />
+                        <img src="assets/images/modal-close.svg" className="lazy" alt="close" />
                       </button>
                       <div className="modal-label text-greenish gothic">
                         <label>002</label>
@@ -516,13 +516,13 @@ export default function Home() {
                 <div className="row">
                   <div className="col-md-4">
                     <div className="modal-left">
-                      <img className="lazy" data-src="assets/images/eight-img3.svg" alt="img" />
+                      <img className="lazy" src="assets/images/eight-img3.svg" alt="img" />
                     </div>
                   </div>
                   <div className="col-md-8">
                     <div className="modal-right">
                       <button type="button" className="modal-closebtn" data-bs-dismiss="modal">
-                        <img data-src="assets/images/modal-close.svg" className="lazy" alt="close" />
+                        <img src="assets/images/modal-close.svg" className="lazy" alt="close" />
                       </button>
                       <div className="modal-label text-greenish gothic">
                         <label>001</label>
@@ -572,13 +572,13 @@ export default function Home() {
                 <div className="row">
                   <div className="col-md-4">
                     <div className="modal-left">
-                      <img className="lazy" data-src="assets/images/eight-img4.svg" alt="img" />
+                      <img className="lazy" src="assets/images/eight-img4.svg" alt="img" />
                     </div>
                   </div>
                   <div className="col-md-8">
                     <div className="modal-right">
                       <button type="button" className="modal-closebtn" data-bs-dismiss="modal">
-                        <img data-src="assets/images/modal-close.svg" className="lazy" alt="close" />
+                        <img src="assets/images/modal-close.svg" className="lazy" alt="close" />
                       </button>
                       <div className="modal-label text-greenish gothic">
                         <label>002</label>
@@ -628,13 +628,13 @@ export default function Home() {
                 <div className="row">
                   <div className="col-md-4">
                     <div className="modal-left">
-                      <img className="lazy" data-src="assets/images/eight-img5.svg" alt="img" />
+                      <img className="lazy" src="assets/images/eight-img5.svg" alt="img" />
                     </div>
                   </div>
                   <div className="col-md-8">
                     <div className="modal-right">
                       <button type="button" className="modal-closebtn" data-bs-dismiss="modal">
-                        <img data-src="assets/images/modal-close.svg" className="lazy" alt="close" />
+                        <img src="assets/images/modal-close.svg" className="lazy" alt="close" />
                       </button>
                       <div className="modal-label text-greenish gothic">
                         <label>001</label>
@@ -683,13 +683,13 @@ export default function Home() {
                 <div className="row">
                   <div className="col-md-4">
                     <div className="modal-left">
-                      <img className="lazy" data-src="assets/images/eight-img6.svg" alt="img" />
+                      <img className="lazy" src="assets/images/eight-img6.svg" alt="img" />
                     </div>
                   </div>
                   <div className="col-md-8">
                     <div className="modal-right">
                       <button type="button" className="modal-closebtn" data-bs-dismiss="modal">
-                        <img data-src="assets/images/modal-close.svg" className="lazy" alt="close" />
+                        <img src="assets/images/modal-close.svg" className="lazy" alt="close" />
                       </button>
                       <div className="modal-label text-greenish gothic">
                         <label>002</label>
@@ -938,8 +938,8 @@ export default function Home() {
 
                           <video className="lazy ninth-video" autoPlay muted loop playsInline preload="none"
                             poster="assets/images/ninth-top.webp" >
-                            <source data-src="assets/videos/ninth-top.mp4" type="video/mp4" />
-                            <source data-src="assets/videos/ninth-top.webm" type="video/webm" />
+                            <source src="assets/videos/ninth-top.mp4" type="video/mp4" />
+                            <source src="assets/videos/ninth-top.webm" type="video/webm" />
                             <p>Your browser doesn't support HTML video. Here is a
                               <a href="assets/videos/ninth-top.mp4">link to the video</a> instead.
                             </p>
@@ -952,8 +952,8 @@ export default function Home() {
 
                           <video className="lazy ninth-video" autoPlay muted loop playsInline preload="none"
                             poster="assets/images/ninth-bottom-left.webp">
-                            <source data-src="assets/videos/ninth-bottom-left.mp4" type="video/mp4" />
-                            <source data-src="assets/videos/ninth-bottom-left.webm" type="video/webm" />
+                            <source src="assets/videos/ninth-bottom-left.mp4" type="video/mp4" />
+                            <source src="assets/videos/ninth-bottom-left.webm" type="video/webm" />
                             <p>Your browser doesn't support HTML video. Here is a
                               <a href="assets/videos/ninth-bottom-left.mp4">link to the video</a> instead.
                             </p>
@@ -966,8 +966,8 @@ export default function Home() {
 
                           <video className="lazy ninth-video" autoPlay muted loop playsInline preload="none"
                             poster="assets/images/ninth-bottom-right.webp">
-                            <source data-src="assets/videos/ninth-bottom-right.mp4" type="video/mp4" />
-                            <source data-src="assets/videos/ninth-bottom-right.webm" type="video/webm" />
+                            <source src="assets/videos/ninth-bottom-right.mp4" type="video/mp4" />
+                            <source src="assets/videos/ninth-bottom-right.webm" type="video/webm" />
                             <p>Your browser doesn't support HTML video. Here is a
                               <a href="assets/videos/ninth-bottom-right.mp4">link to the video</a> instead.
                             </p>
@@ -985,8 +985,8 @@ export default function Home() {
                         <div className="top">
                           <video className="lazy" autoPlay muted loop playsInline preload="none"
                             poster="assets/images/ninth-top.webp">
-                            <source data-src="assets/videos/ninth-top.mp4" type="video/mp4" />
-                            <source data-src="assets/videos/ninth-top.webm" type="video/webm" />
+                            <source src="assets/videos/ninth-top.mp4" type="video/mp4" />
+                            <source src="assets/videos/ninth-top.webm" type="video/webm" />
                             <p>Your browser doesn't support HTML video. Here is a
                               <a href="assets/videos/ninth-top.mp4">link to the video</a> instead.
                             </p>
@@ -1000,8 +1000,8 @@ export default function Home() {
                           <div className="bottom-left">
                             <video className="lazy" autoPlay muted loop playsInline preload="none"
                               poster="assets/images/ninth-bottom-left.webp">
-                              <source data-src="assets/videos/ninth-bottom-left.mp4" type="video/mp4" />
-                              <source data-src="assets/videos/ninth-bottom-left.webm" type="video/webm" />
+                              <source src="assets/videos/ninth-bottom-left.mp4" type="video/mp4" />
+                              <source src="assets/videos/ninth-bottom-left.webm" type="video/webm" />
                               <p>Your browser doesn't support HTML video. Here is a
                                 <a href="assets/videos/ninth-bottom-left.mp4">link to the video</a> instead.
                               </p>
@@ -1012,8 +1012,8 @@ export default function Home() {
                           <div className="bottom-right">
                             <video className="lazy" autoPlay muted loop playsInline preload="none"
                               poster="assets/images/ninth-bottom-right.webp">
-                              <source data-src="assets/videos/ninth-bottom-right.mp4" type="video/mp4" />
-                              <source data-src="assets/videos/ninth-bottom-right.webm" type="video/webm" />
+                              <source src="assets/videos/ninth-bottom-right.mp4" type="video/mp4" />
+                              <source src="assets/videos/ninth-bottom-right.webm" type="video/webm" />
                               <p>Your browser doesn't support HTML video. Here is a
                                 <a href="assets/videos/ninth-bottom-right.mp4">link to the video</a> instead.
                               </p>
@@ -1035,9 +1035,9 @@ export default function Home() {
         <section id="tenth-section" data-bg='assets/images/greenbg.svg' className="lazy section common-section common-bg">
           <div className="container">
             <div className="tenth-container">
-              <img data-src="assets/images/tenth-top-left.webp" alt="img"
+              <img src="assets/images/tenth-top-left.webp" alt="img"
                 className="lazy remove-effect top-left wow fadeInUpBig" data-wow-delay="0.1s" data-wow-duration="2s" />
-              <img data-src="assets/images/tenth-top-right.webp" alt="img"
+              <img src="assets/images/tenth-top-right.webp" alt="img"
                 className="lazy remove-effect top-right wow fadeInUpBig" data-wow-delay="0.3s" data-wow-duration="2s" />
               <div className="remove-effect content wow fadeInUpBig" data-wow-duration="2s">
                 <h2 className="gothic text-lightgreen common-heading-2 text-center">Think green drink green</h2>
@@ -1047,9 +1047,9 @@ export default function Home() {
                   ensuring that nothing goes to waste. Join us for a guilt-free drinking experience that's kind to both the
                   planet and your taste buds. Cheers to a greener future, one drink at a time!</p>
               </div>
-              <img data-src="assets/images/tenth-bottom-left.webp" alt="img"
+              <img src="assets/images/tenth-bottom-left.webp" alt="img"
                 className="lazy remove-effect bottom-left wow fadeInUpBig" data-wow-delay="0.4s" data-wow-duration="2s" />
-              <img data-src="assets/images/tenth-bottom-right.webp" alt="img"
+              <img src="assets/images/tenth-bottom-right.webp" alt="img"
                 className="lazy remove-effect bottom-right wow fadeInUpBig" data-wow-delay="0.6s" data-wow-duration="2s" />
             </div>
           </div>
@@ -1061,14 +1061,14 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-6">
                   <div className="left">
-                    <img className="lazy" data-src="assets/images/bottles.webp" alt="img" />
+                    <img className="lazy" src="assets/images/bottles.webp" alt="img" />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="right">
-                    <img className="lazy" data-src="assets/images/logo.svg" alt="img" />
+                    <img className="lazy" src="assets/images/logo.svg" alt="img" />
                     <h3 className="gothic text-greenish common-heading-1 position-relative">CRAFTED FROM NATURE, <span
-                      className="leaf-green"><img className="lazy position-absolute" data-src="assets/images/leaf-green.svg"
+                      className="leaf-green"><img className="lazy position-absolute" src="assets/images/leaf-green.svg"
                         alt="leaf-img" /></span> my signature</h3>
                   </div>
                 </div>
