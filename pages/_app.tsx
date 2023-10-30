@@ -35,13 +35,6 @@ export default function App({ Component, pageProps }: AppProps) {
           referrerPolicy="no-referrer"
         />
         <Script
-          src="https://cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.7/jquery.lazyload.min.js"
-          strategy="beforeInteractive"
-          integrity="sha512-yP/50WfAXV8JyDvqj8+kX3F/JVSYK4U6PYCriyH4xJvc5YtXbcBLaO2e/4ebu/obGWIObxDKkQQAfzRs0L121A=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
-        />
-        <Script
           src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
           strategy="beforeInteractive"
           integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
