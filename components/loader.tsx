@@ -4,7 +4,7 @@ const Loader = () => {
   const [showLoader, setShowLoader] = useState(true);
   setTimeout(() => {
     setShowLoader(false);
-  }, 3000);
+  }, 2500);
   return showLoader ? (
     <div>
       <div id="overlayer"></div>

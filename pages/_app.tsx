@@ -1,12 +1,14 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
 import "../styles/Home.css";
-import type { AppProps } from 'next/app'
-import Script from 'next/script'
-import Head from 'next/head';
+import type { AppProps } from "next/app";
+import Script from "next/script";
+import Head from "next/head";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <>
-<>
+  return (
+    <>
+      <>
+        <Script src="/index.js" strategy="beforeInteractive" />
         <Script
           src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
           strategy="beforeInteractive"
@@ -15,9 +17,9 @@ export default function App({ Component, pageProps }: AppProps) {
           referrerPolicy="no-referrer"
         />
         <Script
-          src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+          src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
           strategy="beforeInteractive"
-          integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
+          integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
@@ -60,16 +62,15 @@ export default function App({ Component, pageProps }: AppProps) {
           />
           <link
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css"
-            integrity="sha512-RWhcC19d8A3vE7kpXq6Ze4GcPfGe3DQWuenhXAbcGiZOaqGojLtWwit1eeM9jLGHFv8hnwpX3blJKGjTsf2HxQ=="
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+            integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
             crossOrigin="anonymous"
             referrerPolicy="no-referrer"
           />
         </Head>
       </>
 
-
-
-    <Component {...pageProps} />
-  </>
+      <Component {...pageProps} />
+    </>
+  );
 }
