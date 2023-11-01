@@ -15,24 +15,10 @@ export const jQuery = () => {
         );
       });
     }
-    console.log(e.owlCarousel);
-    e.owlCarousel({
-      items: 1,
-      margin: 30,
-      loop: !0,
-      nav: !1,
-      dots: !0,
-      autoplay: !0,
-      autoplayTimeout: 4e3,
-      smartSpeed: 2e3,
-      responsive: { 0: { items: 1 }, 600: { items: 1 }, 1e3: { items: 1 } },
-    }),
-      e.on("change.owl.carousel", function (t) {
-        o(
-          $(".owl-item", e).eq(t.item.index).find("[data-animation-out]"),
-          "out"
-        );
-      });
+
+    e.on("change.owl.carousel", function (t) {
+      o($(".owl-item", e).eq(t.item.index).find("[data-animation-out]"), "out");
+    });
     var t = 0;
     e.on("changed.owl.carousel", function (t) {
       o($(".owl-item", e).eq(t.item.index).find("[data-animation-in]"), "in");
@@ -49,20 +35,6 @@ export const jQuery = () => {
           }
       });
   }),
-    $(function () {
-      $(".tab-container .owl-carousel").owlCarousel({
-        items: 1,
-        loop: !0,
-        nav: !1,
-        dots: !1,
-        margin: 30,
-        responsive: {
-          0: { items: 1 },
-          600: { items: 1 },
-          1e3: { items: 2 },
-        },
-      });
-    }),
     $(document).on("click", 'a[href^="#"]', function (e) {
       e.preventDefault(),
         $("html, body").animate(
@@ -194,20 +166,6 @@ export const jQuery = () => {
             (document.body.style.overflowY = "auto"),
             (document.body.style.overflowX = "hidden");
         }, 2500);
-    }),
-    $(function () {
-      $(".ninth-carousel .owl-carousel").owlCarousel({
-        items: 1,
-        margin: 50,
-        loop: !0,
-        nav: !1,
-        dots: !0,
-        autoplay: !0,
-        autoplayTimeout: 4e3,
-        smartSpeed: 1e3,
-        animateOut: "slideOutLeft",
-        animateIn: "slideInRight",
-      });
     }),
     $(window).scroll(function () {
       $("#video-play").each(function () {

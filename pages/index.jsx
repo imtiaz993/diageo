@@ -1,11 +1,28 @@
 import Head from "next/head";
-import Loader from "../components/loader";
+import dynamic from "next/dynamic";
 import Image from "next/legacy/image";
+import Loader from "../components/loader";
 import { useEffect } from "react";
 import { jQuery } from "../public";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+
+const OwlCarousel = dynamic(() => import("@ntegral/react-owl-carousel"), {
+  ssr: false,
+});
+const options = {
+  loop: true,
+  items: 1,
+  margin: 30,
+  nav: false,
+  dots: true,
+  autoplay: true,
+  autoplayTimeout: 4e3,
+  smartSpeed: 2e3,
+  responsive: { 0: { items: 1 }, 600: { items: 1 }, 1e3: { items: 1 } },
+};
 
 export default function Home() {
-  
   useEffect(() => {
     if (typeof window !== "undefined") {
       jQuery();
@@ -262,7 +279,7 @@ export default function Home() {
                 </div>
                 <div className="col-xl-7">
                   <div className="right first-carousel">
-                    <div className="owl-carousel owl-theme">
+                    <OwlCarousel className="owl-theme" {...options}>
                       <div className="item">
                         <div className="img-container-1">
                           <img
@@ -423,7 +440,7 @@ export default function Home() {
                           />
                         </div>
                       </div>
-                    </div>
+                    </OwlCarousel>
                   </div>
                 </div>
               </div>
@@ -1421,7 +1438,7 @@ export default function Home() {
               role="tabpanel"
               aria-labelledby="tab-1"
             >
-              <div className="owl-carousel owl-theme">
+              <OwlCarousel className="owl-theme" {...options} items={2}>
                 <div className="item">
                   <div className="row">
                     <div className="col-lg-6">
@@ -1501,7 +1518,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </OwlCarousel>
             </div>
 
             <div
@@ -1510,7 +1527,7 @@ export default function Home() {
               role="tabpanel"
               aria-labelledby="tab-2"
             >
-              <div className="owl-carousel owl-theme">
+              <OwlCarousel className="owl-theme" {...options} items={2}>
                 <div className="item">
                   <div className="row">
                     <div className="col-lg-6">
@@ -1596,7 +1613,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </OwlCarousel>
             </div>
 
             <div
@@ -1605,7 +1622,7 @@ export default function Home() {
               role="tabpanel"
               aria-labelledby="tab-3"
             >
-              <div className="owl-carousel owl-theme">
+              <OwlCarousel className="owl-theme" {...options} items={2}>
                 <div className="item">
                   <div className="row">
                     <div className="col-lg-6">
@@ -1686,7 +1703,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </OwlCarousel>
             </div>
           </div>
         </section>
@@ -1714,7 +1731,7 @@ export default function Home() {
 
                 <div className="col-lg-6 p-3">
                   <div className="ninth-carousel">
-                    <div className="owl-carousel owl-theme">
+                    <OwlCarousel className="owl-theme" {...options}>
                       <div className="item">
                         <div className="ninth-carousel-item">
                           <video
@@ -1802,7 +1819,7 @@ export default function Home() {
                           </video>
                         </div>
                       </div>
-                    </div>
+                    </OwlCarousel>
                   </div>
 
                   <div className="right">
