@@ -5,7 +5,6 @@ import { useEffect } from "react";
 import { jQuery } from "../public";
 
 export default function Home() {
-  
   useEffect(() => {
     if (typeof window !== "undefined") {
       jQuery();
@@ -27,7 +26,7 @@ export default function Home() {
               alt="close-btn"
             />
           </div>
-          <div className="header-logo">
+          <div className="header_logo">
             <img
               className="lazy"
               src="/assets/images/menu-logo.svg"
@@ -36,32 +35,32 @@ export default function Home() {
           </div>
           <ul>
             <li>
-              <a href="#second-section" className="bebas sidebar-item">
+              <a href="#second_section" className="bebas sidebar_item">
                 Our Master Blender
               </a>
             </li>
             <li>
-              <a href="#fourth-section" className="bebas sidebar-item">
+              <a href="#fourth_section" className="bebas sidebar_item">
                 Products
               </a>
             </li>
             <li>
-              <a href="#sixth-section" className="bebas sidebar-item">
+              <a href="#sixth_section" className="bebas sidebar_item">
                 Grain To Glass
               </a>
             </li>
             <li>
-              <a href="#eighth-section" className="bebas sidebar-item">
+              <a href="#eighth_section" className="bebas sidebar_item">
                 Recipes
               </a>
             </li>
             <li>
-              <a href="#ninth-section" className="bebas sidebar-item">
+              <a href="#ninth_section" className="bebas sidebar_item">
                 Our mixologists
               </a>
             </li>
           </ul>
-          <div className="menu-btn">
+          <div className="menu_btn">
             <a
               href="https://www.instagram.com/signaturegreenvibes/"
               target="_blank"
@@ -82,33 +81,33 @@ export default function Home() {
           </div>
         </div>
 
-        <header id="header-section">
+        <header id="header_section">
           <div className="logo">
             <img className="lazy" src="/assets/images/logo.svg" alt="logo" />
           </div>
           <ul>
             <li>
-              <a href="#second-section" className="bebas">
+              <a href="#second_section" className="bebas">
                 Our Master Blender
               </a>
             </li>
             <li>
-              <a href="#fourth-section" className="bebas">
+              <a href="#fourth_section" className="bebas">
                 Products
               </a>
             </li>
             <li>
-              <a href="#sixth-section" className="bebas">
+              <a href="#sixth_section" className="bebas">
                 Grain To Glass
               </a>
             </li>
             <li>
-              <a href="#eighth-section" className="bebas">
+              <a href="#eighth_section" className="bebas">
                 Recipes
               </a>
             </li>
             <li>
-              <a href="#ninth-section" className="bebas">
+              <a href="#ninth_section" className="bebas">
                 Our mixologists
               </a>
             </li>
@@ -123,17 +122,17 @@ export default function Home() {
           </div>
         </header>
 
-        <section id="home-section" className="section common-section">
-          <div className="home-container">
+        <section id="home_section" className="section common_section">
+          <div className="home_container">
             <img
-              className="bg-img lazy"
+              className="bg_img lazy"
               src="/assets/images/firstbg.svg"
               alt="img"
             />
 
             <div className="content container lazy">
-              <div className="text-section">
-                <h1 className="gothic text-white common-heading-1">
+              <div className="text_section">
+                <h1 className="gothic text-white common_heading_1">
                   CRAFTED FROM NATURE
                   <span className="leaf position-relative">
                     <img
@@ -143,7 +142,7 @@ export default function Home() {
                     />
                   </span>
                 </h1>
-                <p className="common-p text-white">
+                <p className="common_p text-white">
                   Welcome to the world of Signature. Setting out a bold vision
                   to be India’s Green Whisky, the all-new Signature is as
                   authentic & natural as it gets. Our whisky is an exquisite
@@ -157,14 +156,14 @@ export default function Home() {
                 <img
                   src="/assets/images/symbol.svg"
                   alt="img"
-                  className="symbol-img lazy wow fadeInUpBig"
+                  className="symbol_img lazy wow fadeInUpBig"
                   data-wow-duration="2s"
                   data-wow-delay="0.5s"
                 />
                 <a
                   aria-label="View Recipes"
-                  href="#eighth-section"
-                  className="bg-deepgreen text-lightgreen bebas common-btn view-recipe-btn"
+                  href="#eighth_section"
+                  className="bg_deepgreen text_lightgreen bebas common_btn view_recipe_btn"
                 >
                   VIEW RECIPES
                 </a>
@@ -172,7 +171,7 @@ export default function Home() {
             </div>
 
             <Image
-              className="bottom-img lazy"
+              className="bottom_img lazy"
               src="/assets/images/bottom.webp"
               alt="img"
               layout="fill"
@@ -180,21 +179,21 @@ export default function Home() {
             />
 
             <div className="popup">
-              <div className="popup-container">
+              <div className="popup_container">
                 <img
-                  className="popup-close lazy"
+                  className="popup_close lazy"
                   src="/assets/images/close.svg"
                   alt="close-icon"
                 />
-                <div className="popup-top">
+                <div className="popup_top">
                   <img
                     className="lazy"
                     src="/assets/images/glass.svg"
                     alt="img"
                   />
-                  <h2 className="gothic text-greenish">purchase online</h2>
+                  <h2 className="gothic text_greenish">purchase online</h2>
                 </div>
-                <ul className="popup-middle">
+                <ul className="popup_middle">
                   <li>
                     <a href="https://www.swiggy.com/" target="_blank">
                       <img
@@ -206,7 +205,7 @@ export default function Home() {
                     </a>
                   </li>
                 </ul>
-                <div className="popup-bottom">
+                <div className="popup_bottom">
                   <p className="roboto">
                     Home delivery of alcohol products is only applicable in West
                     Bengal and Odisha.
@@ -215,26 +214,26 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="popup-btn active">
-              <div className="popup-btn-container">
+            <div className="popup_btn active">
+              <div className="popup_btn_container">
                 <img
                   src="/assets/images/glass-btn.webp"
                   alt="img"
-                  className="img-fluid lazy"
+                  className="img_fluid lazy"
                 />
-                <h2 className="gothic text-greenish">purchase online</h2>
+                <h2 className="gothic text_greenish">purchase online</h2>
               </div>
             </div>
           </div>
         </section>
 
         <section
-          id="second-section"
+          id="second_section"
           data-bg="/assets/images/greenbg.svg"
-          className="section common-section common-bg lazy"
+          className="section common_section common_bg lazy"
         >
           <div className="container">
-            <div className="second-container">
+            <div className="second_container">
               <div className="row">
                 <div className="col-xl-5">
                   <div
@@ -242,10 +241,10 @@ export default function Home() {
                     data-wow-duration="2s"
                     data-wow-delay="0.1s"
                   >
-                    <h2 className="gothic text-lightgreen common-heading-1">
+                    <h2 className="gothic text_lightgreen common_heading_1">
                       the signature of our master blender{" "}
                     </h2>
-                    <p className="common-p text-whitealter">
+                    <p className="common_p text_whitealter">
                       In the skilled hands of Louise Martin, our Master Blender,
                       the new Signature attains a level of perfection that is
                       truly remarkable. Her meticulous craftsmanship infuses
@@ -261,10 +260,10 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="col-xl-7">
-                  <div className="right first-carousel">
-                    <div className="owl-carousel owl-theme">
+                  <div className="right first_carousel">
+                    <div className="owl_carousel owl_theme">
                       <div className="item">
-                        <div className="img-container-1">
+                        <div className="img_container_1">
                           <img
                             src="/assets/images/carousel-1-top-left.webp"
                             alt="img"
@@ -325,7 +324,7 @@ export default function Home() {
                             autoPlay
                             muted
                             loop
-                            className="lazy bottom-left opacity-75 wow fadeInUpBig"
+                            className="lazy bottom_left opacity-75 wow fadeInUpBig"
                             data-wow-duration="2s"
                             data-wow-delay="0.6s"
                             preload="none"
@@ -357,7 +356,7 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="item">
-                        <div className="img-container-2">
+                        <div className="img_container_2">
                           <img
                             src="/assets/images/carousel-2-top-left.webp"
                             alt="img"
@@ -377,7 +376,7 @@ export default function Home() {
                             data-animation-out="animate-out fadeOutLeft"
                           />
                           <video
-                            className="bottom-left opacity-75"
+                            className="bottom_left opacity-75"
                             autoPlay
                             muted
                             loop
@@ -431,7 +430,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="third-section" className="section common-section">
+        <section id="third_section" className="section common_section">
           <video
             className="lazy"
             playsInline
@@ -450,11 +449,11 @@ export default function Home() {
             </p>
           </video>
           <div className="container">
-            <div className="third-container">
-              <h2 className="gothic text-lightgreen common-heading-1">
+            <div className="third_container">
+              <h2 className="gothic text_lightgreen common_heading_1">
                 Born of craft
               </h2>
-              <p className="roboto common-p text-white">
+              <p className="roboto common_p text-white">
                 Signature is a creation of natural ingredients- Nature's finest,
                 barley, fresh water and 10 imported scotches harmonize to become
                 one. They are blended with aged Indian malts and fine grain
@@ -469,12 +468,12 @@ export default function Home() {
         </section>
 
         <section
-          id="fourth-section"
+          id="fourth_section"
           data-bg="/assets/images/greenbg.svg"
-          className="lazy section common-section common-bg"
+          className="lazy section common_section common_bg"
         >
           <div className="container">
-            <div className="fourth-container">
+            <div className="fourth_container">
               <div className="row">
                 <div className="col-xl-6">
                   <div className="left" data-wow-duration="2s">
@@ -537,13 +536,13 @@ export default function Home() {
                 </div>
                 <div className="col-xl-6">
                   <div className="right wow fadeInUp" data-wow-duration="2s">
-                    <h2 className="gothic text-lightgreen common-heading-1">
+                    <h2 className="gothic text_lightgreen common_heading_1">
                       signature premier whisky
                     </h2>
-                    <span className="din text-orangish text-uppercase">
+                    <span className="din text_orangish text-uppercase">
                       Smooth & Creamy
                     </span>
-                    <p className="text-whitealter common-p">
+                    <p className="text_whitealter common_p">
                       Signature Premier Whisky Gives a perfect smooth and creamy
                       taste that's elevated sensorially with silky honey, a dash
                       of fruitiness & tinge of Maltiness. An exquisite Scotch
@@ -560,22 +559,22 @@ export default function Home() {
         </section>
 
         <section
-          id="fifth-section"
+          id="fifth_section"
           data-bg="/assets/images/greenbg.svg"
-          className="lazy section common-section common-bg"
+          className="lazy section common_section common_bg"
         >
           <div className="container">
-            <div className="fifth-container">
+            <div className="fifth_container">
               <div className="row">
                 <div className="col-xl-6 order-xl-1 order-2">
                   <div className="left wow fadeInUp" data-wow-duration="2s">
-                    <h2 className="gothic text-lightgreen common-heading-1">
+                    <h2 className="gothic text_lightgreen common_heading_1">
                       signature rare aged whisky
                     </h2>
-                    <span className="din text-orangish text-uppercase">
+                    <span className="din text_orangish text-uppercase">
                       deep & rich
                     </span>
-                    <p className="common-p text-whitealter">
+                    <p className="common_p text_whitealter">
                       Signature Rare Whisky gives a perfect Taste that’s DEEP &
                       RICH An authentically rich taste, with Notes of Dried
                       Fruits & a nutty Aroma. A 3 Grain Whisky with Imported
@@ -650,13 +649,13 @@ export default function Home() {
         </section>
 
         <section
-          id="sixth-section"
+          id="sixth_section"
           data-bg="/assets/images/greenbg.svg"
-          className="lazy section common-section common-bg"
+          className="lazy section common_section common_bg"
         >
           <img
             src="/assets/images/close-video.svg"
-            className="position-absolute close-video"
+            className="position-absolute close_video"
             alt="close-btn"
           />
           <video
@@ -680,19 +679,19 @@ export default function Home() {
             <img
               src="/assets/images/sixth-top.webp"
               alt="img"
-              className="lazy position-absolute sixth-top wow fadeInUpBig"
+              className="lazy position-absolute sixth_top wow fadeInUpBig"
               data-wow-duration="2s"
               data-wow-delay="0.1s"
             />
             <div
-              className="sixth-container wow fadeInUpBig"
+              className="sixth_container wow fadeInUpBig"
               data-wow-duration="2s"
               data-wow-delay="0.2s"
             >
-              <h2 className="gothic text-lightgreen text-center common-heading-2">
+              <h2 className="gothic text_lightgreen text-center common_heading_2">
                 grain to glass
               </h2>
-              <p className="roboto common-p text-whitealter">
+              <p className="roboto common_p text_whitealter">
                 From the careful sourcing of organic, locally grown grains to
                 the use of energy-efficient distillation methods, sustainability
                 is always at the forefront. The result? A sustainably produced
@@ -704,38 +703,38 @@ export default function Home() {
             <img
               src="/assets/images/play.svg"
               alt="img"
-              className="lazy position-absolute play-btn wow fadeInUpBig"
+              className="lazy position-absolute play_btn wow fadeInUpBig"
               data-wow-duration="2s"
               data-wow-delay="0.3s"
             />
             <img
               src="/assets/images/sixth-bottom-left.webp"
               alt="img"
-              className="lazy position-absolute sixth-bottom-left wow fadeInUpBig"
+              className="lazy position-absolute sixth_bottom_left wow fadeInUpBig"
               data-wow-duration="2s"
               data-wow-delay="0.4s"
             />
             <img
               src="/assets/images/sixth-bottom-right.webp"
               alt="img"
-              className="lazy position-absolute sixth-bottom-right wow fadeInUpBig"
+              className="lazy position-absolute sixth_bottom_right wow fadeInUpBig"
               data-wow-duration="2s"
               data-wow-delay="0.5s"
             />
             <img
               src="/assets/images/sixth-bottom-right-2.webp"
               alt="img"
-              className="lazy position-absolute sixth-bottom-right-2 wow fadeInUpBig"
+              className="lazy position-absolute sixth_bottom_right_2 wow fadeInUpBig"
               data-wow-duration="2s"
               data-wow-delay="0.6s"
             />
           </div>
         </section>
 
-        <div className="common-section video-section">
-          <div className="video-container">
+        <div className="common_section video_section">
+          <div className="video_container">
             <video
-              id="video-play"
+              id="video_play"
               loop
               muted
               playsInline
@@ -754,31 +753,31 @@ export default function Home() {
         </div>
 
         <section
-          id="seventh-section"
+          id="seventh_section"
           data-bg="/assets/images/greenbg.svg"
-          className="lazy section common-section common-bg"
+          className="lazy section common_section common_bg"
         >
           <div className="container">
-            <div className="seventh-container position-relative">
+            <div className="seventh_container position-relative">
               <img
                 src="/assets/images/seven-top-left.webp"
                 alt="img"
-                className="lazy top-left wow fadeInUpBig"
+                className="lazy top_left wow fadeInUpBig"
                 data-wow-delay="0.1s"
                 data-wow-duration="2s"
               />
               <img
                 src="/assets/images/seven-top-right.webp"
                 alt="img"
-                className="lazy top-right wow fadeInUpBig"
+                className="lazy top_right wow fadeInUpBig"
                 data-wow-delay="0.1s"
                 data-wow-duration="2s"
               />
               <div className="content wow fadeInUpBig" data-wow-duration="2s">
-                <h2 className="gothic text-lightgreen common-heading-2">
+                <h2 className="gothic text_lightgreen common_heading_2">
                   nature in a glass
                 </h2>
-                <p className="roboto common-p text-whitealter">
+                <p className="roboto common_p text_whitealter">
                   Experience the beauty of nature in every sip with these
                   special curations crafted by the world’s top mixologists. Made
                   with only the finest-locally sourced ingredients that
@@ -788,21 +787,21 @@ export default function Home() {
               <img
                 src="/assets/images/Arrow.webp"
                 alt="img"
-                className="lazy middle-arrow wow fadeInUpBig"
+                className="lazy middle_arrow wow fadeInUpBig"
                 data-wow-duration="2s"
                 data-wow-delay="0.1s"
               />
               <img
                 src="/assets/images/seven-bottom-left.webp"
                 alt="img"
-                className="lazy bottom-left wow fadeInUpBig"
+                className="lazy bottom_left wow fadeInUpBig"
                 data-wow-delay="0.1s"
                 data-wow-duration="2s"
               />
               <img
                 src="/assets/images/seven-bottom-right.webp"
                 alt="img"
-                className="lazy bottom-right wow fadeInUpBig"
+                className="lazy bottom_right wow fadeInUpBig"
                 data-wow-delay="0.1s"
                 data-wow-duration="2s"
               />
@@ -811,17 +810,17 @@ export default function Home() {
         </section>
 
         <section
-          id="eighth-section"
+          id="eighth_section"
           data-bg="/assets/images/eighthbg.svg"
-          className="lazy section common-section"
+          className="lazy section common_section"
         >
-          <div className="tab-section">
-            <div className="nav nav-tabs tabs" id="nav-tab" role="tablist">
+          <div className="tab_section">
+            <div className="nav nav_tabs tabs" id="nav_tab" role="tablist">
               <button
-                className="tab-button bebas active"
-                id="nav-home-tab"
+                className="tab_button bebas active"
+                id="nav_home_tab"
                 data-bs-toggle="tab"
-                data-bs-target="#tab-1"
+                data-bs-target="#tab_1"
                 type="button"
                 role="tab"
                 aria-selected="true"
@@ -829,10 +828,10 @@ export default function Home() {
                 Signature Serve
               </button>
               <button
-                className="tab-button bebas"
-                id="nav-profile-tab"
+                className="tab_button bebas"
+                id="nav_profile_tab"
                 data-bs-toggle="tab"
-                data-bs-target="#tab-2"
+                data-bs-target="#tab_2"
                 type="button"
                 role="tab"
                 aria-selected="false"
@@ -840,10 +839,10 @@ export default function Home() {
                 Region Inspired
               </button>
               <button
-                className="tab-button bebas"
-                id="nav-contact-tab"
+                className="tab_button bebas"
+                id="nav_contact_tab"
                 data-bs-toggle="tab"
-                data-bs-target="#tab-3"
+                data-bs-target="#tab_3"
                 type="button"
                 role="tab"
                 aria-selected="false"
@@ -855,16 +854,16 @@ export default function Home() {
 
           <div
             className="modal fade"
-            id="recipe-modal-1"
+            id="recipe_modal_1"
             tabIndex={-1}
-            aria-labelledby="recipe-modal"
+            aria-labelledby="recipe_modal"
             aria-hidden="true"
           >
-            <div className="modal-dialog">
-              <div className="modal-body">
+            <div className="modal_dialog">
+              <div className="modal_body">
                 <div className="row">
                   <div className="col-md-4">
-                    <div className="modal-left">
+                    <div className="modal_left">
                       <img
                         className="lazy"
                         src="/assets/images/eight-img1.svg"
@@ -873,10 +872,10 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-md-8">
-                    <div className="modal-right">
+                    <div className="modal_right">
                       <button
                         type="button"
-                        className="modal-closebtn"
+                        className="modal_closebtn"
                         data-bs-dismiss="modal"
                       >
                         <img
@@ -885,58 +884,58 @@ export default function Home() {
                           alt="close"
                         />
                       </button>
-                      <div className="modal-label text-greenish gothic">
+                      <div className="modal_label text_greenish gothic">
                         <label>001</label>
                       </div>
-                      <div className="modal-heading">
-                        <h3 className="text-greenish gothic common-heading-1">
+                      <div className="modal_heading">
+                        <h3 className="text_greenish gothic common_heading_1">
                           signature <br className="breaks" /> premier{" "}
                         </h3>
                       </div>
-                      <div className="modal-para">
-                        <p className="roboto700 text-greenish common-p">
+                      <div className="modal_para">
+                        <p className="roboto700 text_greenish common_p">
                           GT Sour is a depiction of that strong cumin element in
                           a sour with the fine full bodied "Signature Premier"
                           defining the versatile classNameic cocktail of the
                           century.
                         </p>
                       </div>
-                      <div className="line bg-greenish"></div>
-                      <ul className="modal-recipe-container">
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                      <div className="line bg_greenish"></div>
+                      <ul className="modal_recipe_container">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             60 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Signature
                           </p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             15 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Roasted Cumin Cordial
                           </p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             3 <span className="roboto">drops</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Aromatic Bitters
                           </p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             15 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Fresh Lime juice
                           </p>
                         </li>
-                        <li className="recipe-method">
-                          <p className="common-p roboto700 text-greenish">
+                        <li className="recipe_method">
+                          <p className="common_p roboto700 text_greenish">
                             Method – Shaken with ice and served straight or on
                             the rocks.
                           </p>
@@ -951,16 +950,16 @@ export default function Home() {
 
           <div
             className="modal fade"
-            id="recipe-modal-2"
+            id="recipe_modal_2"
             tabIndex={-1}
-            aria-labelledby="recipe-modal"
+            aria-labelledby="recipe_modal"
             aria-hidden="true"
           >
-            <div className="modal-dialog">
-              <div className="modal-body">
+            <div className="modal_dialog">
+              <div className="modal_body">
                 <div className="row">
                   <div className="col-md-4">
-                    <div className="modal-left">
+                    <div className="modal_left">
                       <img
                         className="lazy"
                         src="/assets/images/eight-img2.svg"
@@ -969,10 +968,10 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-md-8">
-                    <div className="modal-right">
+                    <div className="modal_right">
                       <button
                         type="button"
-                        className="modal-closebtn"
+                        className="modal_closebtn"
                         data-bs-dismiss="modal"
                       >
                         <img
@@ -981,51 +980,51 @@ export default function Home() {
                           alt="close"
                         />
                       </button>
-                      <div className="modal-label text-greenish gothic">
+                      <div className="modal_label text_greenish gothic">
                         <label>002</label>
                       </div>
-                      <div className="modal-heading">
-                        <h3 className="text-greenish gothic common-heading-1">
+                      <div className="modal_heading">
+                        <h3 className="text_greenish gothic common_heading_1">
                           signature <br className="breaks" /> rare{" "}
                         </h3>
                       </div>
-                      <div className="modal-para">
-                        <p className="roboto700 text-greenish common-p">
+                      <div className="modal_para">
+                        <p className="roboto700 text_greenish common_p">
                           Signature paired with the two most iconic flavours of
                           coffee & coconut along with just the right amount of
                           soda!
                         </p>
                       </div>
-                      <div className="line bg-greenish"></div>
-                      <ul className="modal-recipe-container">
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                      <div className="line bg_greenish"></div>
+                      <ul className="modal_recipe_container">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             60 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Signature
                           </p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             10 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">Coffee</p>
+                          <p className="name common_p text_greenish">Coffee</p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             30 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">Coconut</p>
+                          <p className="name common_p text_greenish">Coconut</p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             10 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">Soda</p>
+                          <p className="name common_p text_greenish">Soda</p>
                         </li>
-                        <li className="recipe-method">
-                          <p className="common-p roboto700 text-greenish">
+                        <li className="recipe_method">
+                          <p className="common_p roboto700 text_greenish">
                             Method – Shaken with ice and served straight.
                           </p>
                         </li>
@@ -1039,16 +1038,16 @@ export default function Home() {
 
           <div
             className="modal fade"
-            id="recipe-modal-3"
+            id="recipe_modal_3"
             tabIndex={-1}
-            aria-labelledby="recipe-modal"
+            aria-labelledby="recipe_modal"
             aria-hidden="true"
           >
-            <div className="modal-dialog">
-              <div className="modal-body">
+            <div className="modal_dialog">
+              <div className="modal_body">
                 <div className="row">
                   <div className="col-md-4">
-                    <div className="modal-left">
+                    <div className="modal_left">
                       <img
                         className="lazy"
                         src="/assets/images/eight-img3.svg"
@@ -1057,10 +1056,10 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-md-8">
-                    <div className="modal-right">
+                    <div className="modal_right">
                       <button
                         type="button"
-                        className="modal-closebtn"
+                        className="modal_closebtn"
                         data-bs-dismiss="modal"
                       >
                         <img
@@ -1069,54 +1068,54 @@ export default function Home() {
                           alt="close"
                         />
                       </button>
-                      <div className="modal-label text-greenish gothic">
+                      <div className="modal_label text_greenish gothic">
                         <label>001</label>
                       </div>
-                      <div className="modal-heading">
-                        <h3 className="text-greenish gothic common-heading-1 changed-heading">
+                      <div className="modal_heading">
+                        <h3 className="text_greenish gothic common_heading_1 changed_heading">
                           {" "}
                           Filter <br className="breaks" />
                           Coconut <br className="breaks" /> Kappi{" "}
                           <span>(south)</span>
                         </h3>
                       </div>
-                      <div className="modal-para">
-                        <p className="roboto700 text-greenish common-p">
+                      <div className="modal_para">
+                        <p className="roboto700 text_greenish common_p">
                           Signature paired with the two most iconic flavours of
                           coffee & coconut along with just the right amount of
                           soda!
                         </p>
                       </div>
-                      <div className="line bg-greenish"></div>
-                      <ul className="modal-recipe-container">
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                      <div className="line bg_greenish"></div>
+                      <ul className="modal_recipe_container">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             60 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Signature
                           </p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             10 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">Coffee</p>
+                          <p className="name common_p text_greenish">Coffee</p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             30 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">Coconut</p>
+                          <p className="name common_p text_greenish">Coconut</p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             10 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">Soda</p>
+                          <p className="name common_p text_greenish">Soda</p>
                         </li>
-                        <li className="recipe-method">
-                          <p className="common-p roboto700 text-greenish">
+                        <li className="recipe_method">
+                          <p className="common_p roboto700 text_greenish">
                             Method – Shaken with ice and served straight.
                           </p>
                         </li>
@@ -1130,16 +1129,16 @@ export default function Home() {
 
           <div
             className="modal fade"
-            id="recipe-modal-4"
+            id="recipe_modal_4"
             tabIndex={-1}
-            aria-labelledby="recipe-modal"
+            aria-labelledby="recipe_modal"
             aria-hidden="true"
           >
-            <div className="modal-dialog">
-              <div className="modal-body">
+            <div className="modal_dialog">
+              <div className="modal_body">
                 <div className="row">
                   <div className="col-md-4">
-                    <div className="modal-left">
+                    <div className="modal_left">
                       <img
                         className="lazy"
                         src="/assets/images/eight-img4.svg"
@@ -1148,10 +1147,10 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-md-8">
-                    <div className="modal-right">
+                    <div className="modal_right">
                       <button
                         type="button"
-                        className="modal-closebtn"
+                        className="modal_closebtn"
                         data-bs-dismiss="modal"
                       >
                         <img
@@ -1160,60 +1159,60 @@ export default function Home() {
                           alt="close"
                         />
                       </button>
-                      <div className="modal-label text-greenish gothic">
+                      <div className="modal_label text_greenish gothic">
                         <label>002</label>
                       </div>
-                      <div className="modal-heading">
-                        <h3 className="text-greenish gothic common-heading-1 changed-heading">
+                      <div className="modal_heading">
+                        <h3 className="text_greenish gothic common_heading_1 changed_heading">
                           {" "}
                           The <br className="breaks" />
                           Signature <br className="breaks" /> Cutting{" "}
                           <span>(west)</span>
                         </h3>
                       </div>
-                      <div className="modal-para">
-                        <p className="roboto700 text-greenish common-p">
+                      <div className="modal_para">
+                        <p className="roboto700 text_greenish common_p">
                           A refreshing end to the weekend with Signature pairing
                           beautifully with Kokum and its two best friends, lime
                           & chili
                         </p>
                       </div>
-                      <div className="line bg-greenish"></div>
-                      <ul className="modal-recipe-container">
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                      <div className="line bg_greenish"></div>
+                      <ul className="modal_recipe_container">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             60 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Signature
                           </p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             10 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Black masala tea
                           </p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             30 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Pineapple
                           </p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             10 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Touch of jaggery
                           </p>
                         </li>
-                        <li className="recipe-method">
-                          <p className="common-p roboto700 text-greenish">
+                        <li className="recipe_method">
+                          <p className="common_p roboto700 text_greenish">
                             Method – Shaken with ice and served straight.
                           </p>
                         </li>
@@ -1227,16 +1226,16 @@ export default function Home() {
 
           <div
             className="modal fade"
-            id="recipe-modal-5"
+            id="recipe_modal_5"
             tabIndex={-1}
-            aria-labelledby="recipe-modal"
+            aria-labelledby="recipe_modal"
             aria-hidden="true"
           >
-            <div className="modal-dialog">
-              <div className="modal-body">
+            <div className="modal_dialog">
+              <div className="modal_body">
                 <div className="row">
                   <div className="col-md-4">
-                    <div className="modal-left">
+                    <div className="modal_left">
                       <img
                         className="lazy"
                         src="/assets/images/eight-img5.svg"
@@ -1245,10 +1244,10 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-md-8">
-                    <div className="modal-right">
+                    <div className="modal_right">
                       <button
                         type="button"
-                        className="modal-closebtn"
+                        className="modal_closebtn"
                         data-bs-dismiss="modal"
                       >
                         <img
@@ -1257,58 +1256,58 @@ export default function Home() {
                           alt="close"
                         />
                       </button>
-                      <div className="modal-label text-greenish gothic">
+                      <div className="modal_label text_greenish gothic">
                         <label>001</label>
                       </div>
-                      <div className="modal-heading">
-                        <h3 className="text-greenish gothic common-heading-1">
+                      <div className="modal_heading">
+                        <h3 className="text_greenish gothic common_heading_1">
                           Salty <br className="breaks" /> bay{" "}
                         </h3>
                       </div>
-                      <div className="modal-para">
-                        <p className="roboto700 text-greenish common-p">
+                      <div className="modal_para">
+                        <p className="roboto700 text_greenish common_p">
                           Complementing the fine aromas is the salty sweet syrup
                           made with Himalayan Pink salt and Palm Candy Sugar
                           making this a whole some cocktail that has a depth of
                           flavors and long-lasting finish.
                         </p>
                       </div>
-                      <div className="line bg-greenish"></div>
-                      <ul className="modal-recipe-container">
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                      <div className="line bg_greenish"></div>
+                      <ul className="modal_recipe_container">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             60 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Signature Premier
                           </p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             10 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Himalayan Pink Salt & Palm CandySyrup
                           </p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             30 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Bay Leaf Water
                           </p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             10 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Lime Juice
                           </p>
                         </li>
-                        <li className="recipe-method">
-                          <p className="common-p roboto700 text-greenish">
+                        <li className="recipe_method">
+                          <p className="common_p roboto700 text_greenish">
                             Method – Shaken with ice and served straight.
                           </p>
                         </li>
@@ -1322,16 +1321,16 @@ export default function Home() {
 
           <div
             className="modal fade"
-            id="recipe-modal-6"
+            id="recipe_modal_6"
             tabIndex={-1}
-            aria-labelledby="recipe-modal"
+            aria-labelledby="recipe_modal"
             aria-hidden="true"
           >
-            <div className="modal-dialog">
-              <div className="modal-body">
+            <div className="modal_dialog">
+              <div className="modal_body">
                 <div className="row">
                   <div className="col-md-4">
-                    <div className="modal-left">
+                    <div className="modal_left">
                       <img
                         className="lazy"
                         src="/assets/images/eight-img6.svg"
@@ -1340,10 +1339,10 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-md-8">
-                    <div className="modal-right">
+                    <div className="modal_right">
                       <button
                         type="button"
-                        className="modal-closebtn"
+                        className="modal_closebtn"
                         data-bs-dismiss="modal"
                       >
                         <img
@@ -1352,55 +1351,55 @@ export default function Home() {
                           alt="close"
                         />
                       </button>
-                      <div className="modal-label text-greenish gothic">
+                      <div className="modal_label text_greenish gothic">
                         <label>002</label>
                       </div>
-                      <div className="modal-heading">
-                        <h3 className="text-greenish gothic common-heading-1">
+                      <div className="modal_heading">
+                        <h3 className="text_greenish gothic common_heading_1">
                           East India <br className="breaks" /> Julep{" "}
                         </h3>
                       </div>
-                      <div className="modal-para">
-                        <p className="roboto700 text-greenish common-p">
+                      <div className="modal_para">
+                        <p className="roboto700 text_greenish common_p">
                           The flavours of east in west. Kaffir lime &amp; mint
                           cordial taking you back to a more nostalgic time,
                           topped off with a perfect amount of lime juice.
                         </p>
                       </div>
-                      <div className="line bg-greenish"></div>
-                      <ul className="modal-recipe-container">
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                      <div className="line bg_greenish"></div>
+                      <ul className="modal_recipe_container">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             45 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Signature Premier
                           </p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             10 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Mint cordial
                           </p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             10 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">
+                          <p className="name common_p text_greenish">
                             Fresh lime juice
                           </p>
                         </li>
-                        <li className="modal-recipe">
-                          <div className="quantity text-greenish gothic">
+                        <li className="modal_recipe">
+                          <div className="quantity text_greenish gothic">
                             90 <span className="roboto">ml</span>
                           </div>
-                          <p className="name common-p text-greenish">Soda</p>
+                          <p className="name common_p text_greenish">Soda</p>
                         </li>
-                        <li className="recipe-method">
-                          <p className="common-p roboto700 text-greenish">
+                        <li className="recipe_method">
+                          <p className="common_p roboto700 text_greenish">
                             Method – muddled and built over ice in a tall hi
                             ball glass. Garnish with kaffir lime leaf.
                           </p>
@@ -1413,20 +1412,20 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="tab-content tab-container" id="nav-tabContent">
+          <div className="tab_content tab_container" id="nav_tabContent">
             <div
-              className="tab-pane active show wow fadeInRight"
+              className="tab_pane active show wow fadeInRight"
               data-wow-duration="2s"
-              id="tab-1"
+              id="tab_1"
               role="tabpanel"
-              aria-labelledby="tab-1"
+              aria-labelledby="tab_1"
             >
-              <div className="owl-carousel owl-theme">
+              <div className="owl_carousel owl_theme">
                 <div className="item">
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="left">
-                        <div className="left-img">
+                        <div className="left_img">
                           <img
                             loading="lazy"
                             src="/assets/images/eight-img1.svg"
@@ -1436,23 +1435,23 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="col-lg-6">
-                      <div className="carousel-right">
-                        <div className="carousel-content">
-                          <div className="text-greenish gothic">
+                      <div className="carousel_right">
+                        <div className="carousel_content">
+                          <div className="text_greenish gothic">
                             <label>001</label>
                           </div>
-                          <h3 className="text-greenish gothic common-heading-1">
+                          <h3 className="text_greenish gothic common_heading_1">
                             signature <br className="breaks" /> premier{" "}
                           </h3>
-                          <p className="roboto700 text-greenish common-p">
+                          <p className="roboto700 text_greenish common_p">
                             Crafted from earth-friendly methods, this whiskey
                             unveils a harmonious blend of nature's abundance and
                             silky elegance.{" "}
                           </p>
                           <button
-                            className="bebas text-lightgreen bg-deepgreen common-btn"
+                            className="bebas text_lightgreen bg_deepgreen common_btn"
                             data-bs-toggle="modal"
-                            data-bs-target="#recipe-modal-1"
+                            data-bs-target="#recipe_modal_1"
                           >
                             view recipe
                           </button>
@@ -1466,7 +1465,7 @@ export default function Home() {
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="left">
-                        <div className="left-img">
+                        <div className="left_img">
                           <img
                             loading="lazy"
                             src="/assets/images/eight-img2.svg"
@@ -1476,21 +1475,21 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="col-lg-6">
-                      <div className="carousel-right">
-                        <div className="carousel-content">
-                          <div className="text-greenish gothic">
+                      <div className="carousel_right">
+                        <div className="carousel_content">
+                          <div className="text_greenish gothic">
                             <label>002</label>
                           </div>
-                          <h3 className="text-greenish gothic common-heading-1">
+                          <h3 className="text_greenish gothic common_heading_1">
                             signature <br className="breaks" /> rare{" "}
                           </h3>
-                          <p className="roboto700 text-greenish common-p">
+                          <p className="roboto700 text_greenish common_p">
                             Signature Rare reveals an unmistakable depth,
                             weaving a tale of opulence that lingers on the
                             palate, to savor all its layers.{" "}
                           </p>
                           <button
-                            className="bebas text-lightgreen bg-deepgreen common-btn"
+                            className="bebas text_lightgreen bg_deepgreen common_btn"
                             data-bs-toggle="modal"
                             data-bs-target="#recipe-modal-2"
                           >
@@ -1505,17 +1504,17 @@ export default function Home() {
             </div>
 
             <div
-              className="tab-pane"
-              id="tab-2"
+              className="tab_pane"
+              id="tab_2"
               role="tabpanel"
-              aria-labelledby="tab-2"
+              aria-labelledby="tab_2"
             >
-              <div className="owl-carousel owl-theme">
+              <div className="owl_carousel owl_theme">
                 <div className="item">
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="left">
-                        <div className="left-img">
+                        <div className="left_img">
                           <img
                             loading="lazy"
                             src="/assets/images/eight-img3.svg"
@@ -1525,26 +1524,26 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="col-lg-6">
-                      <div className="carousel-right">
-                        <div className="carousel-content">
-                          <div className="text-greenish gothic">
+                      <div className="carousel_right">
+                        <div className="carousel_content">
+                          <div className="text_greenish gothic">
                             <label>001</label>
                           </div>
-                          <h3 className="text-greenish gothic common-heading-1 changed-heading">
+                          <h3 className="text_greenish gothic common_heading_1 changed_heading">
                             {" "}
                             Filter <br className="breaks" />
                             Coconut <br className="breaks" /> Kappi{" "}
                             <span>(south)</span>
                           </h3>
-                          <p className="roboto700 text-greenish common-p">
+                          <p className="roboto700 text_greenish common_p">
                             Signature paired with the two most iconic flavours
                             of coffee & coconut along with just the right amount
                             of soda!
                           </p>
                           <button
-                            className="bebas text-lightgreen bg-deepgreen common-btn"
+                            className="bebas text_lightgreen bg_deepgreen common_btn"
                             data-bs-toggle="modal"
-                            data-bs-target="#recipe-modal-3"
+                            data-bs-target="#recipe_modal_3"
                           >
                             view recipe
                           </button>
@@ -1558,7 +1557,7 @@ export default function Home() {
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="left">
-                        <div className="left-img">
+                        <div className="left_img">
                           <img
                             loading="lazy"
                             src="/assets/images/eight-img4.svg"
@@ -1568,26 +1567,26 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="col-lg-6">
-                      <div className="carousel-right">
-                        <div className="carousel-content">
-                          <div className="text-greenish gothic">
+                      <div className="carousel_right">
+                        <div className="carousel_content">
+                          <div className="text_greenish gothic">
                             <label>002</label>
                           </div>
-                          <h3 className="text-greenish gothic common-heading-1 changed-heading">
+                          <h3 className="text_greenish gothic common_heading_1 changed_heading">
                             {" "}
                             The <br className="breaks" />
                             Signature <br className="breaks" /> Cutting{" "}
                             <span>(west)</span>
                           </h3>
-                          <p className="roboto700 text-greenish common-p">
+                          <p className="roboto700 text_greenish common_p">
                             Taste of Maharashtra with the famous masala tea
                             flavour, a lip smacking mix of pineapple and a touch
                             of Jaggery.
                           </p>
                           <button
-                            className="bebas text-lightgreen bg-deepgreen common-btn"
+                            className="bebas text_lightgreen bg_deepgreen common_btn"
                             data-bs-toggle="modal"
-                            data-bs-target="#recipe-modal-4"
+                            data-bs-target="#recipe_modal_4"
                           >
                             view recipe
                           </button>
@@ -1600,17 +1599,17 @@ export default function Home() {
             </div>
 
             <div
-              className="tab-pane"
-              id="tab-3"
+              className="tab_pane"
+              id="tab_3"
               role="tabpanel"
-              aria-labelledby="tab-3"
+              aria-labelledby="tab_3"
             >
-              <div className="owl-carousel owl-theme">
+              <div className="owl_carousel owl_theme">
                 <div className="item">
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="left">
-                        <div className="left-img">
+                        <div className="left_img">
                           <img
                             loading="lazy"
                             src="/assets/images/eight-img5.svg"
@@ -1620,24 +1619,24 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="col-lg-6">
-                      <div className="carousel-right">
-                        <div className="carousel-content last">
-                          <div className="text-greenish gothic">
+                      <div className="carousel_right">
+                        <div className="carousel_content last">
+                          <div className="text_greenish gothic">
                             <label>001</label>
                           </div>
-                          <h3 className="text-greenish gothic common-heading-1">
+                          <h3 className="text_greenish gothic common_heading_1">
                             Salty <br className="breaks" /> bay{" "}
                           </h3>
-                          <p className="roboto700 text-greenish common-p">
+                          <p className="roboto700 text_greenish common_p">
                             Complementing the fine aromas is the salty sweet
                             syrup made with Himalayan Pink salt and Palm Candy
                             Sugar making this a whole some cocktail that has a
                             depth of flavors and long-lasting finish.
                           </p>
                           <button
-                            className="bebas text-lightgreen bg-deepgreen common-btn"
+                            className="bebas text_lightgreen bg_deepgreen common_btn"
                             data-bs-toggle="modal"
-                            data-bs-target="#recipe-modal-5"
+                            data-bs-target="#recipe_modal_5"
                           >
                             view recipe
                           </button>
@@ -1651,7 +1650,7 @@ export default function Home() {
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="left">
-                        <div className="left-img">
+                        <div className="left_img">
                           <img
                             loading="lazy"
                             src="/assets/images/eight-img6.svg"
@@ -1661,23 +1660,23 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="col-lg-6">
-                      <div className="carousel-right">
-                        <div className="carousel-content last">
-                          <div className="text-greenish gothic">
+                      <div className="carousel_right">
+                        <div className="carousel_content last">
+                          <div className="text_greenish gothic">
                             <label>002</label>
                           </div>
-                          <h3 className="text-greenish gothic common-heading-1">
+                          <h3 className="text_greenish gothic common_heading_1">
                             East India <br className="breaks" /> Julep{" "}
                           </h3>
-                          <p className="roboto700 text-greenish common-p">
+                          <p className="roboto700 text_greenish common_p">
                             The flavours of east in west. Kaffir lime &amp; mint
                             cordial taking you back to a more nostalgic time,
                             topped off with a perfect amount of lime juice.
                           </p>
                           <button
-                            className="bebas text-lightgreen bg-deepgreen common-btn"
+                            className="bebas text_lightgreen bg_deepgreen common_btn"
                             data-bs-toggle="modal"
-                            data-bs-target="#recipe-modal-6"
+                            data-bs-target="#recipe_modal_6"
                           >
                             view recipe
                           </button>
@@ -1692,19 +1691,19 @@ export default function Home() {
         </section>
 
         <section
-          id="ninth-section"
+          id="ninth_section"
           data-bg="/assets/images/mixologistbg.svg"
-          className="lazy section common-section"
+          className="lazy section common_section"
         >
           <div className="container">
-            <div className="ninth-container">
+            <div className="ninth_container">
               <div className="row">
                 <div className="col-lg-6">
                   <div className="left">
-                    <h2 className="gothic text-greenish common-heading-2 text-center">
+                    <h2 className="gothic text_greenish common_heading_2 text_center">
                       OUR MIXOLOGISTS
                     </h2>
-                    <p className="common-p roboto700 text-greenish">
+                    <p className="common_p roboto700 text_greenish">
                       Our mixologists elevate libations to liquid art, crafting
                       unforgettable cocktails and drinks that galvanize the
                       senses.
@@ -1713,12 +1712,12 @@ export default function Home() {
                 </div>
 
                 <div className="col-lg-6 p-3">
-                  <div className="ninth-carousel">
-                    <div className="owl-carousel owl-theme">
+                  <div className="ninth_carousel">
+                    <div className="owl_carousel owl_theme">
                       <div className="item">
-                        <div className="ninth-carousel-item">
+                        <div className="ninth_carousel_item">
                           <video
-                            className="lazy ninth-video"
+                            className="lazy ninth_video"
                             autoPlay
                             muted
                             loop
@@ -1745,9 +1744,9 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="item">
-                        <div className="ninth-carousel-item">
+                        <div className="ninth_carousel_item">
                           <video
-                            className="lazy ninth-video"
+                            className="lazy ninth_video"
                             autoPlay
                             muted
                             loop
@@ -1774,9 +1773,9 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="item">
-                        <div className="ninth-carousel-item">
+                        <div className="ninth_carousel_item">
                           <video
-                            className="lazy ninth-video"
+                            className="lazy ninth_video"
                             autoPlay
                             muted
                             loop
@@ -1806,7 +1805,7 @@ export default function Home() {
                   </div>
 
                   <div className="right">
-                    <div className="video-top">
+                    <div className="video_top">
                       <div className="col-12 p-0">
                         <div className="top">
                           <video
@@ -1837,10 +1836,10 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="video-bottom pt-1">
+                    <div className="video_bottom pt-1">
                       <div className="row">
                         <div className="col-7 p-0">
-                          <div className="bottom-left">
+                          <div className="bottom_left">
                             <video
                               className="lazy"
                               autoPlay
@@ -1870,7 +1869,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div className="col-5 p-0">
-                          <div className="bottom-right">
+                          <div className="bottom_right">
                             <video
                               className="lazy"
                               autoPlay
@@ -1909,34 +1908,34 @@ export default function Home() {
         </section>
 
         <section
-          id="tenth-section"
+          id="tenth_section"
           data-bg="/assets/images/greenbg.svg"
-          className="lazy section common-section common-bg"
+          className="lazy section common_section common_bg"
         >
           <div className="container">
-            <div className="tenth-container">
+            <div className="tenth_container">
               <img
                 src="/assets/images/tenth-top-left.webp"
                 alt="img"
-                className="lazy remove-effect top-left wow fadeInUpBig"
+                className="lazy remove_effect top_left wow fadeInUpBig"
                 data-wow-delay="0.1s"
                 data-wow-duration="2s"
               />
               <img
                 src="/assets/images/tenth-top-right.webp"
                 alt="img"
-                className="lazy remove-effect top-right wow fadeInUpBig"
+                className="lazy remove_effect top_right wow fadeInUpBig"
                 data-wow-delay="0.3s"
                 data-wow-duration="2s"
               />
               <div
-                className="remove-effect content wow fadeInUpBig"
+                className="remove_effect content wow fadeInUpBig"
                 data-wow-duration="2s"
               >
-                <h2 className="gothic text-lightgreen common-heading-2 text-center">
+                <h2 className="gothic text_lightgreen common_heading_2 text-center">
                   Think green drink green
                 </h2>
-                <p className="common-p text-whitealter">
+                <p className="common_p text_whitealter">
                   We take pride in using thoughtfully sourced, sustainable
                   materials to serve our drinks. From paper straws to recycled
                   drinkware, we minimize waste without compromising on pizzazz.
@@ -1950,14 +1949,14 @@ export default function Home() {
               <img
                 src="/assets/images/tenth-bottom-left.webp"
                 alt="img"
-                className="lazy remove-effect bottom-left wow fadeInUpBig"
+                className="lazy remove_effect bottom_left wow fadeInUpBig"
                 data-wow-delay="0.4s"
                 data-wow-duration="2s"
               />
               <img
                 src="/assets/images/tenth-bottom-right.webp"
                 alt="img"
-                className="lazy remove-effect bottom-right wow fadeInUpBig"
+                className="lazy remove_effect bottom_right wow fadeInUpBig"
                 data-wow-delay="0.6s"
                 data-wow-duration="2s"
               />
@@ -1965,9 +1964,9 @@ export default function Home() {
           </div>
         </section>
 
-        <footer id="footer-section" className="section">
+        <footer id="footer_section" className="section">
           <div className="container">
-            <div className="footer-container">
+            <div className="footer_container">
               <div className="row">
                 <div className="col-md-6">
                   <div className="left">
@@ -1985,9 +1984,9 @@ export default function Home() {
                       src="/assets/images/logo.svg"
                       alt="img"
                     />
-                    <h3 className="gothic text-greenish common-heading-1 position-relative">
+                    <h3 className="gothic text_greenish common_heading_1 position-relative">
                       CRAFTED FROM NATURE,{" "}
-                      <span className="leaf-green">
+                      <span className="leaf_green">
                         <img
                           className="lazy position-absolute"
                           src="/assets/images/leaf-green.svg"
