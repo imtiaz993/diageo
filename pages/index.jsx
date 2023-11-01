@@ -1,8 +1,16 @@
 import Head from "next/head";
 import Loader from "../components/loader";
 import Image from "next/legacy/image";
+import { useEffect } from "react";
+import { jQuery } from "../public";
 
 export default function Home() {
+  
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      jQuery();
+    }
+  }, []);
   return (
     <div>
       <Head>
