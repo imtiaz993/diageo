@@ -1,6 +1,5 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
-import Image from "next/legacy/image";
 import Loader from "../../../../components/loader";
 import { useEffect } from "react";
 import { jQuery } from "../../../../public";
@@ -222,12 +221,10 @@ export default function Home() {
               </div>
             </div>
 
-            <Image
+            <img
               className="bottom-img lazy"
               src="/assets/images/bottom.webp"
               alt="img"
-              layout="fill"
-              objectFit="cover"
             />
 
             <div className="popup">
