@@ -1462,7 +1462,7 @@ export default function Home() {
               role="tabpanel"
               aria-labelledby="tab-1"
             >
-              <OwlCarousel className="owl-theme" {...tanOpt}>
+              <OwlCarousel className="owl-theme" {...tabOpt}>
                 <div className="item">
                   <div className="row">
                     <div className="col-lg-6">
