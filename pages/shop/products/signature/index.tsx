@@ -1560,7 +1560,7 @@ export default function Home() {
               role="tabpanel"
               aria-labelledby="tab-2"
             >
-              <OwlCarousel className="owl-theme" {...options} items={2}>
+              <OwlCarousel className="owl-theme" {...tabOpt} >
                 <div className="item">
                   <div className="row">
                     <div className="col-lg-6">
@@ -1655,7 +1655,7 @@ export default function Home() {
               role="tabpanel"
               aria-labelledby="tab-3"
             >
-              <OwlCarousel className="owl-theme" {...options} items={2}>
+              <OwlCarousel className="owl-theme" {...tabOpt} >
                 <div className="item">
                   <div className="row">
                     <div className="col-lg-6">
