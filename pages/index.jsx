@@ -11,15 +11,39 @@ const OwlCarousel = dynamic(() => import("@ntegral/react-owl-carousel"), {
   ssr: false,
 });
 const options = {
-  loop: true,
   items: 1,
   margin: 30,
-  nav: false,
-  dots: true,
-  autoplay: true,
+  loop: !0,
+  nav: !1,
+  dots: !0,
+  autoplay: !0,
   autoplayTimeout: 4e3,
   smartSpeed: 2e3,
   responsive: { 0: { items: 1 }, 600: { items: 1 }, 1e3: { items: 1 } },
+};
+const ninthOpt = {
+  items: 1,
+  margin: 50,
+  loop: !0,
+  nav: !1,
+  dots: !0,
+  autoplay: !0,
+  autoplayTimeout: 4e3,
+  smartSpeed: 1e3,
+  animateOut: "slideOutLeft",
+  animateIn: "slideInRight",
+};
+const tabOpt = {
+  items: 1,
+  loop: !0,
+  nav: !1,
+  dots: !1,
+  margin: 30,
+  responsive: {
+    0: { items: 1 },
+    600: { items: 1 },
+    1e3: { items: 2 },
+  },
 };
 
 export default function Home() {
@@ -1438,7 +1462,7 @@ export default function Home() {
               role="tabpanel"
               aria-labelledby="tab-1"
             >
-              <OwlCarousel className="owl-theme" {...options} items={2}>
+              <OwlCarousel className="owl-theme" {...tanOpt}>
                 <div className="item">
                   <div className="row">
                     <div className="col-lg-6">
@@ -1731,7 +1755,7 @@ export default function Home() {
 
                 <div className="col-lg-6 p-3">
                   <div className="ninth-carousel">
-                    <OwlCarousel className="owl-theme" {...options}>
+                    <OwlCarousel className="owl-theme" {...ninthOpt}>
                       <div className="item">
                         <div className="ninth-carousel-item">
                           <video
