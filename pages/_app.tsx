@@ -11,13 +11,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <>
         <Script src="/index.js" strategy="beforeInteractive" />
         <Script
-          src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"
-          strategy="beforeInteractive"
-          integrity="sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
-        />
-        <Script
           src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
           strategy="beforeInteractive"
           integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="

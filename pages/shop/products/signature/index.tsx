@@ -28,6 +28,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 export default function Home() {
   useEffect(() => {
     if (typeof window !== "undefined") {
+      require("bootstrap/dist/js/bootstrap.bundle.min.js");
       jQuery();
       AOS.init({ offset: 0 });
     }
