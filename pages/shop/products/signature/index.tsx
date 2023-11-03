@@ -204,7 +204,7 @@ export default function Home() {
                   src="/assets/images/symbol.svg"
                   alt="img"
                   className="symbol-img lazy wow " data-aos="fade-up"
-                  data-aos-duration="4000"
+                  data-aos-duration="6000"
                   data-aos-delay="500"
                   data-aos-once="true"
                 />
@@ -284,7 +284,7 @@ export default function Home() {
                 <div className="col-xl-5">
                   <div
                     className="left position-relative wow " data-aos="fade-down"
-                    data-aos-duration="4000"
+                    data-aos-duration="6000"
                     data-aos-delay="100"
                     data-aos-once="true"
                   >
@@ -315,7 +315,7 @@ export default function Home() {
                             src="/assets/images/carousel-1-top-left.webp"
                             alt="img"
                             className="lazy wow " data-aos="fade-up"
-                            data-aos-duration="4000"
+                            data-aos-duration="6000"
                             data-aos-delay="100"
                             data-aos-once="true"
                           />
@@ -323,7 +323,7 @@ export default function Home() {
                             src="/assets/images/carousel-1-top-right.webp"
                             alt="img"
                             className="lazy wow " data-aos="fade-up"
-                            data-aos-duration="4000"
+                            data-aos-duration="6000"
                             data-aos-delay="200"
                             data-aos-once="true"
                           />
@@ -331,13 +331,13 @@ export default function Home() {
                             src="/assets/images/carousel-1-middle-left.webp"
                             alt="img"
                             className="lazy wow " data-aos="fade-up"
-                            data-aos-duration="4000"
+                            data-aos-duration="6000"
                             data-aos-delay="300"
                             data-aos-once="true"
                           />
                           <video
                             className="lazy middle wow " data-aos="fade-up"
-                            data-aos-duration="4000"
+                            data-aos-duration="6000"
                             data-aos-delay="400"
                             data-aos-once="true"
                             autoPlay
@@ -367,7 +367,7 @@ export default function Home() {
                             src="/assets/images/carousel-1-middle-right.webp"
                             alt="img"
                             className="lazy wow " data-aos="fade-up"
-                            data-aos-duration="4000"
+                            data-aos-duration="6000"
                             data-aos-delay="500"
                             data-aos-once="true"
                           />
@@ -377,7 +377,7 @@ export default function Home() {
                             muted
                             loop
                             className="lazy bottom-left opacity-75 wow " data-aos="fade-up"
-                            data-aos-duration="4000"
+                            data-aos-duration="6000"
                             data-aos-delay="600"
                             data-aos-once="true"
                             preload="none"
@@ -403,7 +403,7 @@ export default function Home() {
                             src="/assets/images/carousel-1-bottom-right.webp"
                             alt="img"
                             className="lazy wow " data-aos="fade-up"
-                            data-aos-duration="4000"
+                            data-aos-duration="6000"
                             data-aos-delay="600"
                             data-aos-once="true"
                           />
@@ -530,19 +530,19 @@ export default function Home() {
             <div className="fourth-container">
               <div className="row">
                 <div className="col-xl-6">
-                  <div className="left" data-aos-duration="4000">
+                  <div className="left" data-aos-duration="6000">
                     <img
                       src="/assets/images/bottle.webp"
                       alt="img"
                       className="lazy wow " data-aos="fade-up"
-                      data-aos-duration="4000"
+                      data-aos-duration="6000"
                       data-aos-delay="100"
                       data-aos-once="true"
                     />
                     <video
                       className="lazy wow opacity-75"
                       data-aos="fade-up"
-                      data-aos-duration="4000"
+                      data-aos-duration="6000"
                       autoPlay
                       muted
                       loop
@@ -572,7 +572,7 @@ export default function Home() {
                       src="/assets/images/fourth-middle.webp"
                       alt="img"
                       className="lazy wow " data-aos="fade-up"
-                      data-aos-duration="4000"
+                      data-aos-duration="6000"
                       data-aos-delay="300"
                       data-aos-once="true"
                     />
@@ -580,7 +580,7 @@ export default function Home() {
                       src="/assets/images/fourth-bottom-left.webp"
                       alt="img"
                       className="lazy wow " data-aos="zoom-in"
-                      data-aos-duration="4000"
+                      data-aos-duration="6000"
                       data-aos-delay="400"
                       data-aos-once="true"
                     />
@@ -588,14 +588,14 @@ export default function Home() {
                       src="/assets/images/fourth-bottom-right.webp"
                       alt="img"
                       className="lazy wow " data-aos="zoom-in"
-                      data-aos-duration="4000"
+                      data-aos-duration="6000"
                       data-aos-delay="500"
                       data-aos-once="true"
                     />
                   </div>
                 </div>
                 <div className="col-xl-6">
-                  <div className="right wow " data-aos="fade-up" data-aos-duration="4000" data-aos-once="true">
+                  <div className="right wow " data-aos="fade-up" data-aos-duration="6000" data-aos-once="true">
                     <h2 className="gothic text-lightgreen common-heading-1">
                       signature premier whisky
                     </h2>
@@ -627,7 +627,7 @@ export default function Home() {
             <div className="fifth-container">
               <div className="row">
                 <div className="col-xl-6 order-xl-1 order-2">
-                  <div className="left wow " data-aos="fade-up" data-aos-duration="4000" data-aos-once="true">
+                  <div className="left wow " data-aos="fade-up" data-aos-duration="6000" data-aos-once="true">
                     <h2 className="gothic text-lightgreen common-heading-1">
                       signature rare aged whisky
                     </h2>
@@ -650,14 +650,14 @@ export default function Home() {
                       src="/assets/images/bottle-2.webp"
                       alt="img"
                       className="lazy wow " data-aos="fade-up"
-                      data-aos-duration="4000"
+                      data-aos-duration="6000"
                       data-aos-delay="100"
                       data-aos-once="true"
                     />
                     <video
                       className="lazy wow opacity-75"
                       data-aos="fade-up"
-                      data-aos-duration="4000"
+                      data-aos-duration="6000"
                       autoPlay
                       playsInline
                       loop
@@ -687,7 +687,7 @@ export default function Home() {
                       src="/assets/images/fifth-bottom-left.webp"
                       alt="img"
                       className="lazy wow " data-aos="fade-right"
-                      data-aos-duration="4000"
+                      data-aos-duration="6000"
                       data-aos-delay="300"
                       data-aos-once="true"
                     />
@@ -695,7 +695,7 @@ export default function Home() {
                       src="/assets/images/fifth-bottom-left-2.webp"
                       alt="img"
                       className="lazy wow " data-aos="fade-up"
-                      data-aos-duration="4000"
+                      data-aos-duration="6000"
                       data-aos-delay="400"
                       data-aos-once="true"
                     />
@@ -703,7 +703,7 @@ export default function Home() {
                       src="/assets/images/fifth-bottom-right.webp"
                       alt="img"
                       className="lazy wow " data-aos="fade-up"
-                      data-aos-duration="4000"
+                      data-aos-duration="6000"
                       data-aos-delay="500"
                       data-aos-once="true"
                     />
@@ -746,13 +746,13 @@ export default function Home() {
               src="/assets/images/sixth-top.webp"
               alt="img"
               className="lazy position-absolute sixth-top wow " data-aos="fade-up"
-              data-aos-duration="4000"
+              data-aos-duration="6000"
               data-aos-delay="100"
               data-aos-once="true"
             />
             <div
               className="sixth-container wow " data-aos="fade-up"
-              data-aos-duration="4000"
+              data-aos-duration="6000"
               data-aos-delay="200"
               data-aos-once="true"
             >
@@ -772,7 +772,7 @@ export default function Home() {
               src="/assets/images/play.svg"
               alt="img"
               className="lazy position-absolute play-btn wow " data-aos="fade-up"
-              data-aos-duration="4000"
+              data-aos-duration="6000"
               data-aos-delay="300"
               data-aos-once="true"
             />
@@ -780,7 +780,7 @@ export default function Home() {
               src="/assets/images/sixth-bottom-left.webp"
               alt="img"
               className="lazy position-absolute sixth-bottom-left wow " data-aos="fade-up"
-              data-aos-duration="4000"
+              data-aos-duration="6000"
               data-aos-delay="400"
               data-aos-once="true"
             />
@@ -788,7 +788,7 @@ export default function Home() {
               src="/assets/images/sixth-bottom-right.webp"
               alt="img"
               className="lazy position-absolute sixth-bottom-right wow " data-aos="fade-up"
-              data-aos-duration="4000"
+              data-aos-duration="6000"
               data-aos-delay="500"
               data-aos-once="true"
             />
@@ -796,7 +796,7 @@ export default function Home() {
               src="/assets/images/sixth-bottom-right-2.webp"
               alt="img"
               className="lazy position-absolute sixth-bottom-right-2 wow " data-aos="fade-up"
-              data-aos-duration="4000"
+              data-aos-duration="6000"
               data-aos-delay="600"
               data-aos-once="true"
             />
@@ -837,7 +837,7 @@ export default function Home() {
                 className="lazy top-left wow " data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-once="true"
-                data-aos-duration="4000"
+                data-aos-duration="6000"
               />
               <img
                 src="/assets/images/seven-top-right.webp"
@@ -845,9 +845,9 @@ export default function Home() {
                 className="lazy top-right wow " data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-once="true"
-                data-aos-duration="4000"
+                data-aos-duration="6000"
               />
-              <div className="content wow " data-aos="fade-up" data-aos-duration="4000">
+              <div className="content wow " data-aos="fade-up" data-aos-duration="6000">
                 <h2 className="gothic text-lightgreen common-heading-2">
                   nature in a glass
                 </h2>
@@ -862,7 +862,7 @@ export default function Home() {
                 src="/assets/images/Arrow.webp"
                 alt="img"
                 className="lazy middle-arrow wow " data-aos="fade-up"
-                data-aos-duration="4000"
+                data-aos-duration="6000"
                 data-aos-delay="100"
                 data-aos-once="true"
               />
@@ -872,7 +872,7 @@ export default function Home() {
                 className="lazy bottom-left wow " data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-once="true"
-                data-aos-duration="4000"
+                data-aos-duration="6000"
               />
               <img
                 src="/assets/images/seven-bottom-right.webp"
@@ -880,7 +880,7 @@ export default function Home() {
                 className="lazy bottom-right wow " data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-once="true"
-                data-aos-duration="4000"
+                data-aos-duration="6000"
               />
             </div>
           </div>
@@ -1492,7 +1492,7 @@ export default function Home() {
           <div className="tab-content tab-container" id="nav-tabContent">
             <div
               className="tab-pane active show wow " data-aos="fade-left"
-              data-aos-duration="4000"
+              data-aos-duration="6000"
               data-aos-once="true"
               id="tab-1"
               role="tabpanel"
@@ -1997,18 +1997,18 @@ export default function Home() {
                 alt="img"
                 className="lazy remove-effect top-left wow " data-aos="fade-up"
                 data-aos-delay="100"
-                data-aos-duration="4000"
+                data-aos-duration="6000"
               />
               <img
                 src="/assets/images/tenth-top-right.webp"
                 alt="img"
                 className="lazy remove-effect top-right wow " data-aos="fade-up"
                 data-aos-delay="300"
-                data-aos-duration="4000"
+                data-aos-duration="6000"
               />
               <div
                 className="remove-effect content wow " data-aos="fade-up"
-                data-aos-duration="4000"
+                data-aos-duration="6000"
               >
                 <h2 className="gothic text-lightgreen common-heading-2 text-center">
                   Think green drink green
@@ -2029,14 +2029,14 @@ export default function Home() {
                 alt="img"
                 className="lazy remove-effect bottom-left wow " data-aos="fade-up"
                 data-aos-delay="400"
-                data-aos-duration="4000"
+                data-aos-duration="6000"
               />
               <img
                 src="/assets/images/tenth-bottom-right.webp"
                 alt="img"
                 className="lazy remove-effect bottom-right wow " data-aos="fade-up"
                 data-aos-delay="600"
-                data-aos-duration="4000"
+                data-aos-duration="6000"
               />
             </div>
           </div>
