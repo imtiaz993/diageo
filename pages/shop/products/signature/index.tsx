@@ -1492,7 +1492,7 @@ export default function Home() {
           <div className="tab-content tab-container" id="nav-tabContent">
             <div
               className="tab-pane active show wow " data-aos="fade-left"
-              data-aos-duration="6000"
+              data-aos-duration="10000"
               data-aos-once="true"
               id="tab-1"
               role="tabpanel"
