@@ -92,6 +92,18 @@ button {
   color: #2b8140
 }
 
+#second-section, #fourth-section, #fifth-section, #sixth-section, #seventh-section, #tenth-section{
+background: url("/assets/images/greenbg.svg");
+}
+
+#eighth-section{
+  background: url("/assets/images/eighthbg.svg");
+}
+
+#ninth-section{
+  background: url("/assets/images/mixologistbg.svg");
+}
+
 .text-whitealter {
   color: #d9d9d9
 }

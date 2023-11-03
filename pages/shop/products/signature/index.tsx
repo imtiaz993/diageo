@@ -275,7 +275,6 @@ export default function Home() {
 
         <section
           id="second-section"
-          data-bg="/assets/images/greenbg.svg"
           className="section common-section common-bg lazy"
         >
           <div className="container">
@@ -523,7 +522,6 @@ export default function Home() {
 
         <section
           id="fourth-section"
-          data-bg="/assets/images/greenbg.svg"
           className="lazy section common-section common-bg"
         >
           <div className="container">
@@ -620,7 +618,6 @@ export default function Home() {
 
         <section
           id="fifth-section"
-          data-bg="/assets/images/greenbg.svg"
           className="lazy section common-section common-bg"
         >
           <div className="container">
@@ -716,7 +713,6 @@ export default function Home() {
 
         <section
           id="sixth-section"
-          data-bg="/assets/images/greenbg.svg"
           className="lazy section common-section common-bg"
         >
           <img
@@ -826,7 +822,6 @@ export default function Home() {
 
         <section
           id="seventh-section"
-          data-bg="/assets/images/greenbg.svg"
           className="lazy section common-section common-bg"
         >
           <div className="container">
@@ -888,7 +883,6 @@ export default function Home() {
 
         <section
           id="eighth-section"
-          data-bg="/assets/images/eighthbg.svg"
           className="lazy section common-section"
         >
           <div className="tab-section">
@@ -1770,7 +1764,6 @@ export default function Home() {
 
         <section
           id="ninth-section"
-          data-bg="/assets/images/mixologistbg.svg"
           className="lazy section common-section"
         >
           <div className="container">
@@ -1987,7 +1980,6 @@ export default function Home() {
 
         <section
           id="tenth-section"
-          data-bg="/assets/images/greenbg.svg"
           className="lazy section common-section common-bg"
         >
           <div className="container">
