@@ -11,13 +11,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <>
         <Script src="/index.js" strategy="beforeInteractive" />
         <Script
-          src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
-          strategy="beforeInteractive"
-          integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
-        />
-        <Script
           src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"
           strategy="beforeInteractive"
           integrity="sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A=="
@@ -31,15 +24,7 @@ export default function App({ Component, pageProps }: AppProps) {
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
-        <Script
-          src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
-          strategy="beforeInteractive"
-          integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
-        />
         <Head>
-          <link rel="stylesheet" type="text/css" href="/css/product.min.css" />
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
