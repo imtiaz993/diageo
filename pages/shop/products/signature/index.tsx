@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import AOS from 'aos';
 
 import Loader from "../../../../components/loader";
-import { jQuery } from "../../../../public";
+import { jQuery } from "../../../../public/script";
 
 import 'aos/dist/aos.css';
 import "owl.carousel/dist/assets/owl.carousel.css";
