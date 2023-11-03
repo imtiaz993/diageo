@@ -1,8 +1,9 @@
-import "../styles/globals.css";
-import "../styles/Home.css";
 import type { AppProps } from "next/app";
 import Script from "next/script";
 import Head from "next/head";
+
+import "../styles/globals.css";
+import "../styles/Home.css";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

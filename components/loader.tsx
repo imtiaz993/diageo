@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 
 const Loader = () => {
+
   const [showLoader, setShowLoader] = useState(true);
   setTimeout(() => {
     setShowLoader(false);
   }, 2500);
+
   return showLoader ? (
     <div>
       <div id="overlayer"></div>
