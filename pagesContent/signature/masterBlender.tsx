@@ -64,12 +64,6 @@ const MasterBlender = () => {
                 <OwlCarousel className="owl-theme" {...options}>
                   <div className="item">
                     <div className="img-container-1">
-                      <AnimationOnScroll
-                        animateIn="animate__fadeInUpBig"
-                        animateOnce={true}
-                        duration={2}
-                        delay={0.1}
-                      ></AnimationOnScroll>
                       <LazyLoadImage 
                         src="/assets/images/carousel-1-top-left.webp"
                         alt="img"
@@ -79,12 +73,6 @@ const MasterBlender = () => {
                         data-aos-delay="100"
                         data-aos-once="true"
                       />
-                      <AnimationOnScroll
-                        animateIn="animate__fadeInUpBig"
-                        animateOnce={true}
-                        duration={2}
-                        delay={0.1}
-                      ></AnimationOnScroll>
                       <LazyLoadImage 
                         src="/assets/images/carousel-1-top-right.webp"
                         alt="img"
@@ -94,12 +82,6 @@ const MasterBlender = () => {
                         data-aos-delay="200"
                         data-aos-once="true"
                       />
-                      <AnimationOnScroll
-                        animateIn="animate__fadeInUpBig"
-                        animateOnce={true}
-                        duration={2}
-                        delay={0.1}
-                      ></AnimationOnScroll>
                       <LazyLoadImage 
                         src="/assets/images/carousel-1-middle-left.webp"
                         alt="img"
@@ -109,12 +91,6 @@ const MasterBlender = () => {
                         data-aos-delay="300"
                         data-aos-once="true"
                       />
-                      <AnimationOnScroll
-                        animateIn="animate__fadeInUpBig"
-                        animateOnce={true}
-                        duration={2}
-                        delay={0.1}
-                      ></AnimationOnScroll>
                       <video
                         className="lazy middle wow "
                         data-aos="fade-up"
@@ -144,12 +120,6 @@ const MasterBlender = () => {
                           instead.
                         </p>
                       </video>
-                      <AnimationOnScroll
-                        animateIn="animate__fadeInUpBig"
-                        animateOnce={true}
-                        duration={2}
-                        delay={0.1}
-                      ></AnimationOnScroll>
                       <LazyLoadImage 
                         src="/assets/images/carousel-1-middle-right.webp"
                         alt="img"
@@ -159,12 +129,6 @@ const MasterBlender = () => {
                         data-aos-delay="500"
                         data-aos-once="true"
                       />
-                      <AnimationOnScroll
-                        animateIn="animate__fadeInUpBig"
-                        animateOnce={true}
-                        duration={2}
-                        delay={0.1}
-                      ></AnimationOnScroll>
                       <video
                         playsInline
                         autoPlay
@@ -194,12 +158,6 @@ const MasterBlender = () => {
                           instead.
                         </p>
                       </video>
-                      <AnimationOnScroll
-                        animateIn="animate__fadeInUpBig"
-                        animateOnce={true}
-                        duration={2}
-                        delay={0.1}
-                      ></AnimationOnScroll>
                       <LazyLoadImage 
                         src="/assets/images/carousel-1-bottom-right.webp"
                         alt="img"
@@ -213,45 +171,21 @@ const MasterBlender = () => {
                   </div>
                   <div className="item">
                     <div className="img-container-2">
-                      <AnimationOnScroll
-                        animateIn="animate__fadeInUpBig"
-                        animateOnce={true}
-                        duration={2}
-                        delay={0.1}
-                      ></AnimationOnScroll>
                       <LazyLoadImage 
                         src="/assets/images/carousel-2-top-left.webp"
                         alt="img"
                         data-aos="fade-right"
                       />
-                      <AnimationOnScroll
-                        animateIn="animate__fadeInUpBig"
-                        animateOnce={true}
-                        duration={2}
-                        delay={0.1}
-                      ></AnimationOnScroll>
                       <LazyLoadImage 
                         src="/assets/images/carousel-2-top-left-2.webp"
                         alt="img"
                         data-aos="fade-right"
                       />
-                      <AnimationOnScroll
-                        animateIn="animate__fadeInUpBig"
-                        animateOnce={true}
-                        duration={2}
-                        delay={0.1}
-                      ></AnimationOnScroll>
                       <LazyLoadImage 
                         src="/assets/images/carousel-2-middle.webp"
                         alt="img"
                         data-aos="fade-right"
                       />
-                      <AnimationOnScroll
-                        animateIn="animate__fadeInUpBig"
-                        animateOnce={true}
-                        duration={2}
-                        delay={0.1}
-                      ></AnimationOnScroll>
                       <video
                         className="bottom-left opacity-75"
                         autoPlay
@@ -278,34 +212,16 @@ const MasterBlender = () => {
                           instead.
                         </p>
                       </video>
-                      <AnimationOnScroll
-                        animateIn="animate__fadeInUpBig"
-                        animateOnce={true}
-                        duration={2}
-                        delay={0.1}
-                      ></AnimationOnScroll>
                       <LazyLoadImage 
                         src="/assets/images/carousel-2-bottom-left-2.webp"
                         alt="img"
                         data-aos="fade-right"
                       />
-                      <AnimationOnScroll
-                        animateIn="animate__fadeInUpBig"
-                        animateOnce={true}
-                        duration={2}
-                        delay={0.1}
-                      ></AnimationOnScroll>
                       <LazyLoadImage 
                         src="/assets/images/carousel-2-bottom-right.webp"
                         alt="img"
                         data-aos="fade-right"
                       />
-                      <AnimationOnScroll
-                        animateIn="animate__fadeInUpBig"
-                        animateOnce={true}
-                        duration={2}
-                        delay={0.1}
-                      ></AnimationOnScroll>
                       <LazyLoadImage 
                         src="/assets/images/carousel-2-bottom-right-2.webp"
                         alt="img"
