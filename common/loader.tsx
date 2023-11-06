@@ -5,7 +5,7 @@ const Loader = () => {
   const [showLoader, setShowLoader] = useState(true);
   setTimeout(() => {
     setShowLoader(false);
-  }, 2500);
+  }, 4000);
 
   return showLoader ? (
     <div>

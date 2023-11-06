@@ -1,4 +1,5 @@
 import React from "react";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Hero = () => {
   return (
@@ -35,11 +36,7 @@ const Hero = () => {
             <img
               src="/assets/images/symbol.svg"
               alt="img"
-              className="symbol-img lazy wow "
-              data-aos="fade-up"
-              data-aos-duration="6000"
-              data-aos-delay="500"
-              data-aos-once="true"
+              className="symbol-img lazy "
             />
             <a
               aria-label="View Recipes"

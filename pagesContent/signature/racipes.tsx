@@ -1,5 +1,6 @@
 import React from "react";
 import dynamic from "next/dynamic";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const OwlCarousel = dynamic(() => import("@ntegral/react-owl-carousel"), {
   ssr: false,
@@ -608,94 +609,97 @@ const Racipes = () => {
       <div className="tab-content tab-container" id="nav-tabContent">
         <div
           className="tab-pane active show wow "
-          data-aos="fade-left"
-          data-aos-duration="10000"
-          data-aos-once="true"
           id="tab-1"
           role="tabpanel"
           aria-labelledby="tab-1"
         >
-          <OwlCarousel className="owl-theme" {...tabOpt}>
-            <div className="item">
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="left">
-                    <div className="left-img">
-                      <img
-                        loading="lazy"
-                        src="/assets/images/eight-img1.svg"
-                        alt="img"
-                      />
+          <AnimationOnScroll
+            animateIn="animate__fadeInRightBig"
+            duration={2}
+            animateOnce
+          >
+            <OwlCarousel className="owl-theme" {...tabOpt}>
+              <div className="item">
+                <div className="row">
+                  <div className="col-lg-6">
+                    <div className="left">
+                      <div className="left-img">
+                        <img
+                          loading="lazy"
+                          src="/assets/images/eight-img1.svg"
+                          alt="img"
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="carousel-right">
-                    <div className="carousel-content">
-                      <div className="text-greenish gothic">
-                        <label>001</label>
+                  <div className="col-lg-6">
+                    <div className="carousel-right">
+                      <div className="carousel-content">
+                        <div className="text-greenish gothic">
+                          <label>001</label>
+                        </div>
+                        <h3 className="text-greenish gothic common-heading-1">
+                          signature <br className="breaks" /> premier{" "}
+                        </h3>
+                        <p className="roboto700 text-greenish common-p">
+                          Crafted from earth-friendly methods, this whiskey
+                          unveils a harmonious blend of nature's abundance and
+                          silky elegance.{" "}
+                        </p>
+                        <button
+                          className="bebas text-lightgreen bg-deepgreen common-btn"
+                          data-bs-toggle="modal"
+                          data-bs-target="#recipe-modal-1"
+                        >
+                          view recipe
+                        </button>
                       </div>
-                      <h3 className="text-greenish gothic common-heading-1">
-                        signature <br className="breaks" /> premier{" "}
-                      </h3>
-                      <p className="roboto700 text-greenish common-p">
-                        Crafted from earth-friendly methods, this whiskey
-                        unveils a harmonious blend of nature's abundance and
-                        silky elegance.{" "}
-                      </p>
-                      <button
-                        className="bebas text-lightgreen bg-deepgreen common-btn"
-                        data-bs-toggle="modal"
-                        data-bs-target="#recipe-modal-1"
-                      >
-                        view recipe
-                      </button>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div className="item">
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="left">
-                    <div className="left-img">
-                      <img
-                        loading="lazy"
-                        src="/assets/images/eight-img2.svg"
-                        alt="img"
-                      />
+              <div className="item">
+                <div className="row">
+                  <div className="col-lg-6">
+                    <div className="left">
+                      <div className="left-img">
+                        <img
+                          loading="lazy"
+                          src="/assets/images/eight-img2.svg"
+                          alt="img"
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="carousel-right">
-                    <div className="carousel-content">
-                      <div className="text-greenish gothic">
-                        <label>002</label>
+                  <div className="col-lg-6">
+                    <div className="carousel-right">
+                      <div className="carousel-content">
+                        <div className="text-greenish gothic">
+                          <label>002</label>
+                        </div>
+                        <h3 className="text-greenish gothic common-heading-1">
+                          signature <br className="breaks" /> rare{" "}
+                        </h3>
+                        <p className="roboto700 text-greenish common-p">
+                          Signature Rare reveals an unmistakable depth, weaving
+                          a tale of opulence that lingers on the palate, to
+                          savor all its layers.{" "}
+                        </p>
+                        <button
+                          className="bebas text-lightgreen bg-deepgreen common-btn"
+                          data-bs-toggle="modal"
+                          data-bs-target="#recipe-modal-2"
+                        >
+                          view recipe
+                        </button>
                       </div>
-                      <h3 className="text-greenish gothic common-heading-1">
-                        signature <br className="breaks" /> rare{" "}
-                      </h3>
-                      <p className="roboto700 text-greenish common-p">
-                        Signature Rare reveals an unmistakable depth, weaving a
-                        tale of opulence that lingers on the palate, to savor
-                        all its layers.{" "}
-                      </p>
-                      <button
-                        className="bebas text-lightgreen bg-deepgreen common-btn"
-                        data-bs-toggle="modal"
-                        data-bs-target="#recipe-modal-2"
-                      >
-                        view recipe
-                      </button>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </OwlCarousel>
+            </OwlCarousel>
+          </AnimationOnScroll>
         </div>
 
         <div

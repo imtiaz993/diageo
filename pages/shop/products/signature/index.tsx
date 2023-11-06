@@ -22,6 +22,7 @@ import OurMixologists from "../../../../pagesContent/signature/ourMixologists";
 import ThinkGreenDrinkGreen from "../../../../pagesContent/signature/thinkGreenDrinkGreen";
 
 import "aos/dist/aos.css";
+import "animate.css/animate.min.css";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
