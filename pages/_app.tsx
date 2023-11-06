@@ -10,25 +10,11 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <>
         <Script src="/index.js" strategy="beforeInteractive" />
-        <Script
-          src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-          strategy="beforeInteractive"
-          integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
-        />
         <Head>
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
             integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
-            crossOrigin="anonymous"
-            referrerPolicy="no-referrer"
-          />
-          <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-            integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
             crossOrigin="anonymous"
             referrerPolicy="no-referrer"
           />
