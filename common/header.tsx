@@ -1,10 +1,11 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Header = () => {
   return (
     <header id="header-section">
       <div className="logo">
-        <img className="lazy" src="/assets/images/logo.svg" alt="logo" />
+        <LazyLoadImage  className="lazy" src="/assets/images/logo.svg" alt="logo" />
       </div>
       <ul>
         <li>
@@ -35,7 +36,7 @@ const Header = () => {
       </ul>
 
       <div id="menu">
-        <img
+        <LazyLoadImage 
           className="lazy"
           src="/assets/images/ham-menu.svg"
           alt="ham-menu"

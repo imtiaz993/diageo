@@ -1,17 +1,18 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
       <div id="close">
-        <img
+        <LazyLoadImage 
           className="lazy"
           src="/assets/images/close-btn.svg"
           alt="close-btn"
         />
       </div>
       <div className="header-logo">
-        <img className="lazy" src="/assets/images/menu-logo.svg" alt="logo" />
+        <LazyLoadImage  className="lazy" src="/assets/images/menu-logo.svg" alt="logo" />
       </div>
       <ul>
         <li>
@@ -47,7 +48,7 @@ const Sidebar = () => {
           className="white bebas"
         >
           <span>
-            <img
+            <LazyLoadImage 
               className="lazy"
               src="/assets/images/menu-instagram.svg"
               alt="logo"

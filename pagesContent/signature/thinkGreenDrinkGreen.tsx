@@ -1,5 +1,6 @@
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const ThinkGreenDrinkGreen = () => {
   return (
@@ -13,7 +14,7 @@ const ThinkGreenDrinkGreen = () => {
             delay={0.1}
             className="position-absolute remove-effect top-left "
           >
-            <img
+            <LazyLoadImage 
               src="/assets/images/tenth-top-left.webp"
               alt="img"
               width="100%"
@@ -26,7 +27,7 @@ const ThinkGreenDrinkGreen = () => {
             delay={0.3}
             className="position-absolute remove-effect top-right "
           >
-            <img
+            <LazyLoadImage 
               src="/assets/images/tenth-top-right.webp"
               alt="img"
               width="100%"
@@ -62,7 +63,7 @@ const ThinkGreenDrinkGreen = () => {
             delay={0.3}
             className="position-absolute remove-effect bottom-left "
           >
-            <img
+            <LazyLoadImage 
               src="/assets/images/tenth-bottom-left.webp"
               alt="img"
               width="100%"
@@ -75,7 +76,7 @@ const ThinkGreenDrinkGreen = () => {
             delay={0.4}
             className="position-absolute remove-effect bottom-right "
           >
-            <img
+            <LazyLoadImage 
               src="/assets/images/tenth-bottom-right.webp"
               alt="img"
               width="100%"

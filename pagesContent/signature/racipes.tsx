@@ -1,6 +1,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const OwlCarousel = dynamic(() => import("@ntegral/react-owl-carousel"), {
   ssr: false,
@@ -72,7 +73,7 @@ const Racipes = () => {
             <div className="row">
               <div className="col-md-4">
                 <div className="modal-left">
-                  <img
+                  <LazyLoadImage 
                     className="lazy"
                     src="/assets/images/eight-img1.svg"
                     alt="img"
@@ -86,7 +87,7 @@ const Racipes = () => {
                     className="modal-closebtn"
                     data-bs-dismiss="modal"
                   >
-                    <img
+                    <LazyLoadImage 
                       src="/assets/images/modal-close.svg"
                       className="lazy"
                       alt="close"
@@ -166,7 +167,7 @@ const Racipes = () => {
             <div className="row">
               <div className="col-md-4">
                 <div className="modal-left">
-                  <img
+                  <LazyLoadImage 
                     className="lazy"
                     src="/assets/images/eight-img2.svg"
                     alt="img"
@@ -180,7 +181,7 @@ const Racipes = () => {
                     className="modal-closebtn"
                     data-bs-dismiss="modal"
                   >
-                    <img
+                    <LazyLoadImage 
                       src="/assets/images/modal-close.svg"
                       className="lazy"
                       alt="close"
@@ -251,7 +252,7 @@ const Racipes = () => {
             <div className="row">
               <div className="col-md-4">
                 <div className="modal-left">
-                  <img
+                  <LazyLoadImage 
                     className="lazy"
                     src="/assets/images/eight-img3.svg"
                     alt="img"
@@ -265,7 +266,7 @@ const Racipes = () => {
                     className="modal-closebtn"
                     data-bs-dismiss="modal"
                   >
-                    <img
+                    <LazyLoadImage 
                       src="/assets/images/modal-close.svg"
                       className="lazy"
                       alt="close"
@@ -339,7 +340,7 @@ const Racipes = () => {
             <div className="row">
               <div className="col-md-4">
                 <div className="modal-left">
-                  <img
+                  <LazyLoadImage 
                     className="lazy"
                     src="/assets/images/eight-img4.svg"
                     alt="img"
@@ -353,7 +354,7 @@ const Racipes = () => {
                     className="modal-closebtn"
                     data-bs-dismiss="modal"
                   >
-                    <img
+                    <LazyLoadImage 
                       src="/assets/images/modal-close.svg"
                       className="lazy"
                       alt="close"
@@ -432,7 +433,7 @@ const Racipes = () => {
             <div className="row">
               <div className="col-md-4">
                 <div className="modal-left">
-                  <img
+                  <LazyLoadImage 
                     className="lazy"
                     src="/assets/images/eight-img5.svg"
                     alt="img"
@@ -446,7 +447,7 @@ const Racipes = () => {
                     className="modal-closebtn"
                     data-bs-dismiss="modal"
                   >
-                    <img
+                    <LazyLoadImage 
                       src="/assets/images/modal-close.svg"
                       className="lazy"
                       alt="close"
@@ -525,7 +526,7 @@ const Racipes = () => {
             <div className="row">
               <div className="col-md-4">
                 <div className="modal-left">
-                  <img
+                  <LazyLoadImage 
                     className="lazy"
                     src="/assets/images/eight-img6.svg"
                     alt="img"
@@ -539,7 +540,7 @@ const Racipes = () => {
                     className="modal-closebtn"
                     data-bs-dismiss="modal"
                   >
-                    <img
+                    <LazyLoadImage 
                       src="/assets/images/modal-close.svg"
                       className="lazy"
                       alt="close"
@@ -624,7 +625,7 @@ const Racipes = () => {
                   <div className="col-lg-6">
                     <div className="left">
                       <div className="left-img">
-                        <img
+                        <LazyLoadImage 
                           loading="lazy"
                           src="/assets/images/eight-img1.svg"
                           alt="img"
@@ -664,7 +665,7 @@ const Racipes = () => {
                   <div className="col-lg-6">
                     <div className="left">
                       <div className="left-img">
-                        <img
+                        <LazyLoadImage 
                           loading="lazy"
                           src="/assets/images/eight-img2.svg"
                           alt="img"
@@ -714,7 +715,7 @@ const Racipes = () => {
                 <div className="col-lg-6">
                   <div className="left">
                     <div className="left-img">
-                      <img
+                      <LazyLoadImage 
                         loading="lazy"
                         src="/assets/images/eight-img3.svg"
                         alt="img"
@@ -757,7 +758,7 @@ const Racipes = () => {
                 <div className="col-lg-6">
                   <div className="left">
                     <div className="left-img">
-                      <img
+                      <LazyLoadImage 
                         loading="lazy"
                         src="/assets/images/eight-img4.svg"
                         alt="img"
@@ -808,7 +809,7 @@ const Racipes = () => {
                 <div className="col-lg-6">
                   <div className="left">
                     <div className="left-img">
-                      <img
+                      <LazyLoadImage 
                         loading="lazy"
                         src="/assets/images/eight-img5.svg"
                         alt="img"
@@ -849,7 +850,7 @@ const Racipes = () => {
                 <div className="col-lg-6">
                   <div className="left">
                     <div className="left-img">
-                      <img
+                      <LazyLoadImage 
                         loading="lazy"
                         src="/assets/images/eight-img6.svg"
                         alt="img"

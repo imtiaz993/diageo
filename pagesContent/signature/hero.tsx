@@ -1,11 +1,12 @@
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Hero = () => {
   return (
     <section id="home-section" className="section common-section">
       <div className="home-container">
-        <img
+        <LazyLoadImage 
           className="bg-img lazy"
           src="/assets/images/firstbg.svg"
           alt="img"
@@ -16,7 +17,7 @@ const Hero = () => {
             <h1 className="gothic text-white common-heading-1">
               CRAFTED FROM NATURE
               <span className="leaf position-relative">
-                <img
+                <LazyLoadImage 
                   className="position-absolute"
                   src="/assets/images/leaf.svg"
                   alt="leaf"
@@ -33,7 +34,7 @@ const Hero = () => {
               Martin, it is truly unique, full of character & bound to leave a
               lasting signature. Taste of Nature in a Glass!
             </p>
-            <img
+            <LazyLoadImage 
               src="/assets/images/symbol.svg"
               alt="img"
               className="symbol-img lazy "
@@ -48,7 +49,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <img
+        <LazyLoadImage 
           className="bottom-img lazy"
           src="/assets/images/bottom.webp"
           alt="img"
@@ -56,19 +57,19 @@ const Hero = () => {
 
         <div className="popup">
           <div className="popup-container">
-            <img
+            <LazyLoadImage 
               className="popup-close lazy"
               src="/assets/images/close.svg"
               alt="close-icon"
             />
             <div className="popup-top">
-              <img className="lazy" src="/assets/images/glass.svg" alt="img" />
+              <LazyLoadImage  className="lazy" src="/assets/images/glass.svg" alt="img" />
               <h2 className="gothic text-greenish">purchase online</h2>
             </div>
             <ul className="popup-middle">
               <li>
                 <a href="https://www.swiggy.com/" target="_blank">
-                  <img
+                  <LazyLoadImage 
                     className="img lazy"
                     src="/assets/images/swiggy.svg"
                     alt="swiggy-icon"
@@ -88,7 +89,7 @@ const Hero = () => {
 
         <div className="popup-btn active">
           <div className="popup-btn-container">
-            <img
+            <img 
               src="/assets/images/glass-btn.webp"
               alt="img"
               className="img-fluid lazy"

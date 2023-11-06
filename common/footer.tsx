@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-6">
               <div className="left">
-                <img
+                <LazyLoadImage 
                   className="lazy"
                   src="/assets/images/bottles.webp"
                   alt="img"
@@ -17,11 +18,11 @@ const Footer = () => {
             </div>
             <div className="col-md-6">
               <div className="right">
-                <img className="lazy" src="/assets/images/logo.svg" alt="img" />
+                <LazyLoadImage  className="lazy" src="/assets/images/logo.svg" alt="img" />
                 <h3 className="gothic text-greenish common-heading-1 position-relative">
                   CRAFTED FROM NATURE,{" "}
                   <span className="leaf-green">
-                    <img
+                    <LazyLoadImage 
                       className="lazy position-absolute"
                       src="/assets/images/leaf-green.svg"
                       alt="leaf-img"

@@ -1,5 +1,6 @@
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const NatureInGlass = () => {
   return (
@@ -13,7 +14,7 @@ const NatureInGlass = () => {
             delay={0.1}
             className="position-absolute top-left"
           >
-            <img
+            <LazyLoadImage 
               src="/assets/images/seven-top-left.webp"
               alt="img"
               width="100%"
@@ -26,7 +27,7 @@ const NatureInGlass = () => {
             delay={0.1}
             className="position-absolute top-right"
           >
-            <img
+            <LazyLoadImage 
               src="/assets/images/seven-top-right.webp"
               alt="img"
               width="100%"
@@ -58,7 +59,7 @@ const NatureInGlass = () => {
             delay={0.1}
             className="position-absolute middle-arrow"
           >
-            <img src="/assets/images/Arrow.webp" alt="img" width="100%" />
+            <LazyLoadImage  src="/assets/images/Arrow.webp" alt="img" width="100%" />
           </AnimationOnScroll>
           <AnimationOnScroll
             animateIn="animate__fadeInUpBig"
@@ -67,7 +68,7 @@ const NatureInGlass = () => {
             delay={0.1}
             className="position-absolute bottom-left"
           >
-            <img
+            <LazyLoadImage 
               src="/assets/images/seven-bottom-left.webp"
               alt="img"
               width="100%"
@@ -80,7 +81,7 @@ const NatureInGlass = () => {
             delay={0.1}
             className="position-absolute bottom-right"
           >
-            <img
+            <LazyLoadImage 
               src="/assets/images/seven-bottom-right.webp"
               alt="img"
               width="100%"

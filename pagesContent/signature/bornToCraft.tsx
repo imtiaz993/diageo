@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const BornToCraft = () => {
   return (
@@ -31,7 +32,7 @@ const BornToCraft = () => {
             one. They are blended with aged Indian malts and fine grain spirits.
             Even the bottle is made from recycled glass.
           </p>
-          <img className="lazy" src="/assets/images/qr.webp" alt="qr-img" />
+          <LazyLoadImage  className="lazy" src="/assets/images/qr.webp" alt="qr-img" />
           <span className="bebas text-white">scan the qr code for more</span>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const RareAgedWhisky = () => {
   return (
@@ -33,7 +34,7 @@ const RareAgedWhisky = () => {
             </div>
             <div className="col-xl-6 order-xl-2 order-1">
               <div className="right">
-                <img
+                <LazyLoadImage 
                   src="/assets/images/bottle-2.webp"
                   alt="img"
                   className="lazy wow "
@@ -71,7 +72,7 @@ const RareAgedWhisky = () => {
                     instead.
                   </p>
                 </video>
-                <img
+                <LazyLoadImage 
                   src="/assets/images/fifth-bottom-left.webp"
                   alt="img"
                   className="lazy wow "
@@ -80,7 +81,7 @@ const RareAgedWhisky = () => {
                   data-aos-delay="300"
                   data-aos-once="true"
                 />
-                <img
+                <LazyLoadImage 
                   src="/assets/images/fifth-bottom-left-2.webp"
                   alt="img"
                   className="lazy wow "
@@ -89,7 +90,7 @@ const RareAgedWhisky = () => {
                   data-aos-delay="400"
                   data-aos-once="true"
                 />
-                <img
+                <LazyLoadImage 
                   src="/assets/images/fifth-bottom-right.webp"
                   alt="img"
                   className="lazy wow "

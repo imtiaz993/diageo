@@ -1,10 +1,11 @@
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const GrainToGlass = () => {
   return (
     <section id="sixth-section" className=" section common-section common-bg">
-      <img
+      <LazyLoadImage 
         src="/assets/images/close-video.svg"
         className="position-absolute close-video"
         alt="close-btn"
@@ -34,7 +35,7 @@ const GrainToGlass = () => {
           delay={0.1}
           className="position-absolute sixth-top"
         >
-          <img src="/assets/images/sixth-top.webp" alt="img" width="100%" />
+          <LazyLoadImage  src="/assets/images/sixth-top.webp" alt="img" width="100%" />
         </AnimationOnScroll>
         <AnimationOnScroll
           animateIn="animate__fadeInUpBig"
@@ -64,7 +65,7 @@ const GrainToGlass = () => {
           delay={0.3}
           className="position-absolute play-btn"
         >
-          <img src="/assets/images/play.svg" alt="img" width="100%" />
+          <LazyLoadImage  src="/assets/images/play.svg" alt="img" width="100%" />
         </AnimationOnScroll>
         <AnimationOnScroll
           animateIn="animate__fadeInUpBig"
@@ -73,7 +74,7 @@ const GrainToGlass = () => {
           delay={0.4}
           className="position-absolute sixth-bottom-left"
         >
-          <img
+          <LazyLoadImage 
             src="/assets/images/sixth-bottom-left.webp"
             alt="img"
             width="100%"
@@ -86,7 +87,7 @@ const GrainToGlass = () => {
           delay={0.5}
           className="position-absolute sixth-bottom-right"
         >
-          <img
+          <LazyLoadImage 
             src="/assets/images/sixth-bottom-right.webp"
             alt="img"
             width="100%"
@@ -99,7 +100,7 @@ const GrainToGlass = () => {
           delay={0.6}
           className="position-absolute sixth-bottom-right-2"
         >
-          <img
+          <LazyLoadImage 
             src="/assets/images/sixth-bottom-right-2.webp"
             alt="img"
             width="100%"

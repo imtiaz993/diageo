@@ -1,6 +1,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const OwlCarousel = dynamic(() => import("@ntegral/react-owl-carousel"), {
   ssr: false,
@@ -51,7 +52,7 @@ const MasterBlender = () => {
                   these exquisite blends with a sense of revelation, offering a
                   remarkably smooth and delightfully rich experience.{" "}
                 </p>
-                <img
+                <LazyLoadImage 
                   className="lazy"
                   src="/assets/images/sign.webp"
                   alt="sign img"
@@ -69,7 +70,7 @@ const MasterBlender = () => {
                         duration={2}
                         delay={0.1}
                       ></AnimationOnScroll>
-                      <img
+                      <LazyLoadImage 
                         src="/assets/images/carousel-1-top-left.webp"
                         alt="img"
                         className="lazy wow "
@@ -84,7 +85,7 @@ const MasterBlender = () => {
                         duration={2}
                         delay={0.1}
                       ></AnimationOnScroll>
-                      <img
+                      <LazyLoadImage 
                         src="/assets/images/carousel-1-top-right.webp"
                         alt="img"
                         className="lazy wow "
@@ -99,7 +100,7 @@ const MasterBlender = () => {
                         duration={2}
                         delay={0.1}
                       ></AnimationOnScroll>
-                      <img
+                      <LazyLoadImage 
                         src="/assets/images/carousel-1-middle-left.webp"
                         alt="img"
                         className="lazy wow "
@@ -149,7 +150,7 @@ const MasterBlender = () => {
                         duration={2}
                         delay={0.1}
                       ></AnimationOnScroll>
-                      <img
+                      <LazyLoadImage 
                         src="/assets/images/carousel-1-middle-right.webp"
                         alt="img"
                         className="lazy wow "
@@ -199,7 +200,7 @@ const MasterBlender = () => {
                         duration={2}
                         delay={0.1}
                       ></AnimationOnScroll>
-                      <img
+                      <LazyLoadImage 
                         src="/assets/images/carousel-1-bottom-right.webp"
                         alt="img"
                         className="lazy wow "
@@ -218,7 +219,7 @@ const MasterBlender = () => {
                         duration={2}
                         delay={0.1}
                       ></AnimationOnScroll>
-                      <img
+                      <LazyLoadImage 
                         src="/assets/images/carousel-2-top-left.webp"
                         alt="img"
                         data-aos="fade-right"
@@ -229,7 +230,7 @@ const MasterBlender = () => {
                         duration={2}
                         delay={0.1}
                       ></AnimationOnScroll>
-                      <img
+                      <LazyLoadImage 
                         src="/assets/images/carousel-2-top-left-2.webp"
                         alt="img"
                         data-aos="fade-right"
@@ -240,7 +241,7 @@ const MasterBlender = () => {
                         duration={2}
                         delay={0.1}
                       ></AnimationOnScroll>
-                      <img
+                      <LazyLoadImage 
                         src="/assets/images/carousel-2-middle.webp"
                         alt="img"
                         data-aos="fade-right"
@@ -283,7 +284,7 @@ const MasterBlender = () => {
                         duration={2}
                         delay={0.1}
                       ></AnimationOnScroll>
-                      <img
+                      <LazyLoadImage 
                         src="/assets/images/carousel-2-bottom-left-2.webp"
                         alt="img"
                         data-aos="fade-right"
@@ -294,7 +295,7 @@ const MasterBlender = () => {
                         duration={2}
                         delay={0.1}
                       ></AnimationOnScroll>
-                      <img
+                      <LazyLoadImage 
                         src="/assets/images/carousel-2-bottom-right.webp"
                         alt="img"
                         data-aos="fade-right"
@@ -305,7 +306,7 @@ const MasterBlender = () => {
                         duration={2}
                         delay={0.1}
                       ></AnimationOnScroll>
-                      <img
+                      <LazyLoadImage 
                         src="/assets/images/carousel-2-bottom-right-2.webp"
                         alt="img"
                         data-aos="fade-right"
